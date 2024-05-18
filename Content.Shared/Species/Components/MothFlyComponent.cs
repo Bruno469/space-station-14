@@ -5,7 +5,7 @@ using Robust.Shared.GameStates;
 namespace Content.Shared.Species.Components;
 
 [RegisterComponent, NetworkedComponent, AutoGenerateComponentState]
-public sealed partial class GibActionComponent : Component
+public sealed partial class MothFlyComponent : Component
 {
     /// <summary>
     /// The action to use.
@@ -26,5 +26,5 @@ public sealed partial class GibActionComponent : Component
     /// The text that appears when attempting to split.
     /// </summary>
     [DataField("popupText")]
-    public string PopupText = "diona-gib-action-use";
+    public string PopupText = "moth-fly-action-use";
 }

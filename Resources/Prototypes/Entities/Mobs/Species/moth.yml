@@ -5,6 +5,10 @@
   id: BaseMobMoth
   abstract: true
   components:
+  - type: MothFly
+    actionPrototype: MothFlyAction
+    allowedStates:
+    - Alive
   - type: HumanoidAppearance
     species: Moth
   - type: Hunger
