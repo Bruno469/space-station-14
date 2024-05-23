@@ -5,7 +5,6 @@ using Content.Shared.Mobs;
 using Content.Shared.Mobs.Components;
 using Content.Shared.Popups;
 using Robust.Shared.Prototypes;
-
 using Content.Shared.Damage.Systems;
 using Content.Shared.Movement.Events;
 using Robust.Shared.Physics.Components;
@@ -14,7 +13,7 @@ using Content.Shared.Movement.Systems;
 
 namespace Content.Shared.Species;
 
-public sealed partial class MothFlySystem : EntitySystem
+public sealed partial class SharedMothFlySystem : EntitySystem
 {
     [Dependency] private readonly SharedActionsSystem _actionsSystem = default!;
     [Dependency] private readonly SharedBodySystem _bodySystem = default!;
@@ -57,9 +56,37 @@ public sealed partial class MothFlySystem : EntitySystem
         // When they use the action, gib them (It's a meme lol).
         _popupSystem.PopupClient(Loc.GetString(comp.PopupText, ("name", uid)), uid, uid);
         if (TryComp<PhysicsComponent>(uid, out var physics))
-            _physics.SetBodyStatus(uid, physics, BodyStatus.InAir);
-            _movementSpeedModifier.ChangeBaseSpeed(uid, 2, 2, 1);
-            _bodySystem.UpdateMovementSpeed(uid);
             _stamina.TakeStaminaDamage(uid, 50);
+    }
+
+    private bool IsEnabled(EntityUid uid)
+    {
+        return HasComp<MothFlyComponent>(uid);
+    }
+
+    protected virtual bool CanEnable(EntityUid uid, MothFlyComponent component)
+    {
+        return true;
+    }
+    public void SetEnabled(EntityUid uid, MothFlyComponent component, bool enabled)
+    {
+        var user = component.Owner;
+
+        if (IsEnabled(uid) == enabled ||
+            enabled && !CanEnable(uid, component))
+        {
+            if (TryComp<PhysicsComponent>(user, out var physics))
+                _physics.SetBodyStatus(user, physics, BodyStatus.OnGround);
+            return;
+        }
+
+        if (TryComp<PhysicsComponent>(user, out var newphysics))
+            _physics.SetBodyStatus(user, newphysics, BodyStatus.InAir);
+        _movementSpeedModifier.ChangeBaseSpeed(user, 2, 2, 1);
+    }
+
+    public bool IsUserFlying(EntityUid uid)
+    {
+        return HasComp<MothFlyComponent>(uid);
     }
 }
