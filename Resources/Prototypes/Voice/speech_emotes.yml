@@ -28,6 +28,17 @@
     - yells
     - yelled
     - yelling
+    # Russian-Localization-Start
+    - кричит
+    - кричит.
+    - кричит!
+    - орёт
+    - орёт.
+    - орёт!
+    - визжит
+    - визжит.
+    - визжит!
+    # Russian-Localization-End
 
 - type: emote
   id: Laugh
@@ -57,6 +68,28 @@
     - chortle
     - chortles
     - chortling
+<<<<<<< HEAD
+=======
+    - chortling.
+    - chortling!
+    # Russian-Localization-Start
+    - смеется
+    - смеется.
+    - смеется!
+    - смеётся
+    - смеётся.
+    - смеётся!
+    - хохочет
+    - хохочет.
+    - хохочет!
+    - хихикает
+    - хихикает.
+    - хихикает!
+    - хихикнул
+    - хихикнула
+    - ржёт
+    # Russian-Localization-End
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
 
 - type: emote
   id: Honk
@@ -74,6 +107,16 @@
     - honks
     - honked
     - honking
+<<<<<<< HEAD
+=======
+    - honking.
+    - honking!
+    # Russian-Localization-Start
+    - хонк
+    - хонк.
+    - хонк!
+    # Russian-Localization-End
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
 
 - type: emote
   id: Sigh
@@ -91,6 +134,20 @@
     - sigh
     - sighs
     - sighed
+<<<<<<< HEAD
+=======
+    - sigh.
+    - sighs.
+    - sighed.
+    # Russian-Localization-Start
+    - вздыхает
+    - вздыхает.
+    - вздохнул
+    - вздохнула
+    - вздохнул.
+    - вздохнула.
+    # Russian-Localization-End
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
 
 - type: emote
   id: Whistle
@@ -108,6 +165,19 @@
     - whistle
     - whistles
     - whistleblowing
+<<<<<<< HEAD
+=======
+    - whistleblowing.
+    - whistleblowing!
+    # Russian-Localization-Start
+    - свистит
+    - свистит.
+    - свистит!
+    - свистнул
+    - свистнул.
+    - свистнул!
+    # Russian-Localization-End
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
 
 - type: emote
   id: Crying
@@ -128,6 +198,19 @@
     - sob
     - sobs
     - sobbing
+<<<<<<< HEAD
+=======
+    - sobbing.
+    - sobbing!
+    # Russian-Localization-Start
+    - плачет
+    - плачет.
+    - плачет!
+    - рыдает
+    - рыдает.
+    - рыдает!
+    # Russian-Localization-End
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
 
 - type: emote
   id: Squish
@@ -146,6 +229,16 @@
     - squish
     - squishing
     - squishes
+<<<<<<< HEAD
+=======
+    - squishes.
+    - squishes!
+    # Russian-Localization-Start
+    - хлюпает
+    - хлюпает.
+    - хлюпает!
+    # Russian-Localization-End
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
 
 - type: emote
   id: Chitter
@@ -164,6 +257,16 @@
    - chitter
    - chitters
    - chittered
+<<<<<<< HEAD
+=======
+   - chittered.
+   - chittered!
+   # Russian-Localization-Start
+   - стрекочет
+   - стрекочет.
+   - стрекочет!
+   # Russian-Localization-End
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
 
 - type: emote
   id: Squeak
@@ -182,6 +285,16 @@
    - squeak
    - squeaks
    - squeaked
+<<<<<<< HEAD
+=======
+   - squeaked.
+   - squeaked!
+   # Russian-Localization-Start
+   - пищит
+   - пищит.
+   - пищит!
+   # Russian-Localization-End
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
 
 - type: emote
   id: Click
@@ -199,6 +312,19 @@
   chatTriggers:
    - click
    - clicks
+<<<<<<< HEAD
+=======
+   - clicks.
+   - clicks!
+   # Russian-Localization-Start
+   - клац
+   - клац.
+   - клац!
+   - клацает
+   - клацает.
+   - клацает!
+   # Russian-Localization-End
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
 
 # hand emotes
 - type: emote
@@ -218,6 +344,21 @@
     - claps
     - clapping
     - clapped
+    # Russian-Localization-Start
+    - хлопает
+    - хлопает.
+    - хлопает!
+    - хлопнул
+    - хлопнула
+    - хлопает в ладоши
+    - хлопает в ладоши.
+    - хлопает в ладоши!
+    - хлопнул в ладоши
+    - хлопнула в ладоши
+    - апплодирует
+    - апплодирует.
+    - апплодирует!
+    # Russian-Localization-End
 
 - type: emote
   id: Snap
@@ -241,6 +382,28 @@
     - snaps their fingers
     - snapping fingers
     - snapped fingers
+    # Russian-Localization-Start
+    - щелкает
+    - щелкает.
+    - щелкает!
+    - щелкнул
+    - щелкнула
+    - щёлкает
+    - щёлкает.
+    - щёлкает!
+    - щёлкнул
+    - щёлкнула
+    - щелкает пальцами
+    - щелкает пальцами.
+    - щелкает пальцами!
+    - щелкнул пальцами
+    - щелкнула пальцами
+    - щёлкает пальцами
+    - щёлкает пальцами.
+    - щёлкает пальцами!
+    - щёлкнул пальцами
+    - щёлкнула пальцами
+    # Russian-Localization-End
 
 - type: emote
   id: Salute
@@ -257,6 +420,25 @@
   chatTriggers:
     - salute
     - salutes
+<<<<<<< HEAD
+=======
+    - salutes.
+    - salutes!
+    # Russian-Localization-Start
+    - салютует
+    - салютует.
+    - салютует!
+    - отдаёт честь
+    - отдаёт честь.
+    - отдаёт честь!
+    - отдал честь
+    - отдал честь.
+    - отдал честь!
+    - отдала честь
+    - отдала честь.
+    - отдала честь!
+    # Russian-Localization-End
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
 
 - type: emote
   id: Gasp
@@ -303,13 +485,29 @@
     - buzz
     - buzzed
     - buzzes
+<<<<<<< HEAD
+=======
+    - buzzes.
+    - buzzes!
+    # Russian-Localization-Start
+    - жужжит!
+    - жужжит.
+    - жужжит
+    - зажужжал
+    - зажужжал.
+    - зажужжал!
+    - зажужжала
+    - зажужжала.
+    - зажужжала!
+    # Russian-Localization-End
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
 
 - type: emote
   id: Weh
   name: chat-emote-name-weh
   category: Vocal
   icon: Interface/Emotes/weh.png
-  chatMessages: [Wehs!]
+  chatMessages: [издаёт вех!]
 
 - type: emote
   id: Chirp
@@ -326,6 +524,16 @@
     - chirps
     - chirped
     - chirping
+<<<<<<< HEAD
+=======
+    - chirping.
+    - chirping!
+    # Russian-Localization-Start
+    - чирикает
+    - чирикает.
+    - чирикает!
+    # Russian-Localization-End
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
 
 # Machine Emotes
 - type: emote
@@ -344,6 +552,16 @@
     - beeps
     - beeped
     - beeping
+<<<<<<< HEAD
+=======
+    - beeping.
+    - beeping!
+    # Russian-Localization-Start
+    - бип
+    - бип.
+    - бип!
+    # Russian-Localization-End
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
 
 - type: emote
   id: Chime
@@ -361,6 +579,16 @@
     - chimes
     - chimed
     - chiming
+<<<<<<< HEAD
+=======
+    - chiming,
+    - chiming!
+    # Russian-Localization-Start
+    - дзынь
+    - дзынь.
+    - дзынь!
+    # Russian-Localization-End
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
 
 - type: emote
   id: Buzz-Two
@@ -384,6 +612,31 @@
     - buzzes twice
     - buzzing twice
     - buzzed twice
+<<<<<<< HEAD
+=======
+    - buzzed twice.
+    - buzzed twice!
+    # Russian-Localization-Start
+    - бипбуп
+    - бипбуп.
+    - бипбуп!
+    - бип буп
+    - бип буп.
+    - бип буп!
+    - бип-буп
+    - бип-буп.
+    - бип-буп!
+    - бипбип
+    - бипбип.
+    - бипбип!
+    - бип бип
+    - бип бип.
+    - бип бип!
+    - бип-бип
+    - бип-бип.
+    - бип-бип!
+    # Russian-Localization-End
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
 
 - type: emote
   id: Ping
@@ -401,3 +654,13 @@
     - pings
     - pinged
     - pinging
+<<<<<<< HEAD
+=======
+    - pinging.
+    - pinging!
+    # Russian-Localization-Start
+    - пинг
+    - пинг.
+    - пинг!
+    # Russian-Localization-End
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))

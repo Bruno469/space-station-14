@@ -19,9 +19,12 @@
       0: Alive
       100: Critical
       200: Dead
+<<<<<<< HEAD
   - type: MovementSpeedModifier
     baseSprintSpeed: 4.0
     baseWalkSpeed: 3.0
+=======
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
   - type: Body
     prototype: Swine
     requiredLegs: 2

@@ -1,7 +1,11 @@
 {
   "version": 1,
   "license": "CC-BY-SA-3.0",
+<<<<<<< HEAD:Resources/Textures/_Goobstation/Clothing/Uniforms/Jumpsuit/blueshield_shirt.rsi/meta.json
   "copyright": "Taken from tgstation at commit https://github.com/tgstation/tgstation/commit/28d0be60aa8bbe1ca87a5d129487bb6f60839ac4. In hand sprite scaled down by potato1234_x, monkey made by brainfood1183 (github) for , reptilian made by kuro(388673708753027083)",
+=======
+  "copyright": "Taken from tgstation at commit https://github.com/tgstation/tgstation/commit/46a92082e4dd599e233ebf280050fb5be0107da9. equipped-OUTERCLOTHING-vox state taken from /vg/station at commit https://github.com/vgstation-coders/vgstation13/commit/31d6576ba8102135d058ef49c3cb6ecbe8db8a79",
+>>>>>>> 5775d4cdef (Merge sunrise build (#2)):Resources/Textures/Clothing/OuterClothing/WinterCoats/coatengi.rsi/meta.json
   "size": {
     "x": 32,
     "y": 32

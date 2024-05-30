@@ -3,6 +3,9 @@
   name: job-name-clown
   description: job-description-clown
   playTimeTracker: JobClown
+  requirements:
+  - !type:OverallPlaytimeRequirement
+      time: 18000 #5 hrs # Sunrise-RoleTime
   startingGear: ClownGear
   icon: "JobIconClown"
   supervisors: job-supervisors-hop
@@ -33,7 +36,10 @@
     pocket2: ClownRecorder
     id: ClownPDA
     ears: ClothingHeadsetService
+<<<<<<< HEAD
   storage:
     back:
     - RubberStampClown
     - CrayonRainbow
+=======
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))

@@ -1,5 +1,7 @@
+using Content.Shared.Damage.Prototypes;
 using Robust.Shared.Audio;
 using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom;
+using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom.Prototype.List;
 
 namespace Content.Server.Medical.Components;
 
@@ -60,6 +62,7 @@ public sealed partial class HealthAnalyzerComponent : Component
     /// Sound played on scanning end
     /// </summary>
     [DataField]
+<<<<<<< HEAD
     public SoundSpecifier ScanningEndSound = new SoundPathSpecifier("/Audio/Items/Medical/healthscanner.ogg");
 
     /// <summary>
@@ -67,4 +70,10 @@ public sealed partial class HealthAnalyzerComponent : Component
     /// </summary>
     [DataField]
     public bool Silent;
+=======
+    public SoundSpecifier? ScanningEndSound;
+
+    [DataField("damageContainers", customTypeSerializer: typeof(PrototypeIdListSerializer<DamageContainerPrototype>))]
+    public List<string>? DamageContainers;
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
 }

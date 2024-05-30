@@ -1,5 +1,9 @@
 using Content.Shared.Access;
+<<<<<<< HEAD
 using Content.Shared.Guidebook;
+=======
+using Content.Shared.Humanoid.Prototypes;
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
 using Content.Shared.Players.PlayTimeTracking;
 using Content.Shared.StatusIcon;
 using Robust.Shared.Prototypes;
@@ -84,6 +88,11 @@ namespace Content.Shared.Roles
         [DataField("canBeAntag")]
         public bool CanBeAntag { get; private set; } = true;
 
+        // Sunrise-Start
+        [DataField("radioBold")]
+        public bool RadioIsBold { get; }
+        // Sunrise-End
+
         /// <summary>
         ///     The "weight" or importance of this job. If this number is large, the job system will assign this job
         ///     before assigning other jobs.
@@ -137,6 +146,7 @@ namespace Content.Shared.Roles
         [DataField("extendedAccessGroups")]
         public IReadOnlyCollection<ProtoId<AccessGroupPrototype>> ExtendedAccessGroups { get; private set; } = Array.Empty<ProtoId<AccessGroupPrototype>>();
 
+<<<<<<< HEAD
         [DataField]
         public bool Whitelisted;
 
@@ -146,6 +156,12 @@ namespace Content.Shared.Roles
         /// </summary>
         [DataField]
         public List<ProtoId<GuideEntryPrototype>>? Guides;
+=======
+        // Sunrise-Start
+        [DataField("speciesBlacklist", customTypeSerializer: typeof(PrototypeIdListSerializer<SpeciesPrototype>))]
+        public List<string> SpeciesBlacklist = new();
+        // Sunrise-End
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
     }
 
     /// <summary>

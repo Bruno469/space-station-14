@@ -52,7 +52,7 @@
             SecurityOfficer: [ 8, 8 ]
             Detective: [ 1, 1 ]
             SecurityCadet: [ 4, 4 ]
-            Lawyer: [ 2, 2 ]
+            #Lawyer: [ 2, 2 ]
             #supply
             Quartermaster: [ 1, 1 ]
             SalvageSpecialist: [ 3, 3 ]
@@ -62,6 +62,11 @@
             Clown: [ 1, 1 ]
             Mime: [ 1, 1 ]
             Musician: [ 1, 1 ]
+<<<<<<< HEAD
             #silicon
             StationAi: [ 1, 1 ]
             Borg: [ 2, 2 ]
+=======
+            # Sunrise-Roles
+            IAA: [ 1, 1 ]
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))

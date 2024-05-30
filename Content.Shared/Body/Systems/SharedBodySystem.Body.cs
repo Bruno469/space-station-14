@@ -137,7 +137,17 @@ public partial class SharedBodySystem
 
         // Setup the rest of the body entities.
         SetupOrgans((rootPartUid, rootPart), protoRoot.Organs);
+<<<<<<< HEAD
         MapInitParts(rootPartUid, rootPart, prototype); // Shitmed Change
+=======
+
+        // Sunrise-Start
+        var ev = new SetupOrgansEvent();
+        RaiseLocalEvent(bodyEntity, ref ev);
+        // Sunrise-End
+
+        MapInitParts(rootPartUid, prototype);
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
     }
 
     private void OnBodyCanDrag(Entity<BodyComponent> ent, ref CanDragEvent args)

@@ -1,16 +1,25 @@
 - type: entity
+<<<<<<< HEAD
   categories: [ HideSpawnMenu ]
+=======
+  noSpawn: true
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
   parent: [BaseTraitorObjective, BaseLivingObjective]
   id: HijackShuttleObjective
   name: Hijack emergency shuttle
   description: Leave on the shuttle free and clear of the loyal Nanotrasen crew on board. Use ANY methods available to you. Syndicate agents, Nanotrasen enemies, and handcuffed hostages may remain alive on the shuttle. Ignore assistance from anyone other than a support agent.
   components:
     - type: Objective
+<<<<<<< HEAD
       difficulty: 5
+=======
+      difficulty: 5 #Hijacker don't help anyone else
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
       icon:
         sprite: Objects/Tools/emag.rsi
         state: icon
     - type: HijackShuttleCondition
+<<<<<<< HEAD
 
 - type: entity
   parent: BaseTraitorStealObjective
@@ -30,3 +39,5 @@
   components:
   - type: StealCondition
     stealGroup: AdvancedDefibrillator
+=======
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))

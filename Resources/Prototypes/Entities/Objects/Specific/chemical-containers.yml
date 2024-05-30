@@ -80,9 +80,13 @@
           acts: [ "Destruction" ]
     - type: Label
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
       currentLabel: кувшин # Russian-Localization
 >>>>>>> 7a811c6c39 (фиксы YAMLLinter)
+=======
+      originalName: кувшин # Russian-Localization
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
     - type: Tag
       tags:
       - ChemDispensable

@@ -6,20 +6,16 @@
   requirements:
     - !type:RoleTimeRequirement
       role: JobChemist
-      time: 10800 #3 hrs
-    - !type:RoleTimeRequirement
-      role: JobMedicalDoctor
-      time: 21600 #6 hrs
+      time: 7200 #2 hrs # Sunrise-RoleTime
     - !type:DepartmentTimeRequirement
       department: Medical
-      time: 36000 #10 hrs
-    - !type:OverallPlaytimeRequirement
-      time: 144000 #40 hrs
+      time: 36000 #10 hrs # Sunrise-RoleTime
   weight: 10
   startingGear: CMOGear
   icon: "JobIconChiefMedicalOfficer"
   requireAdminNotify: true
   supervisors: job-supervisors-captain
+  radioBold: true
   canBeAntag: false
   access:
   - Medical
@@ -36,11 +32,16 @@
   - !type:AddComponentSpecial
     components:
       - type: CommandStaff
+<<<<<<< HEAD
   # Shitmed Change
   - !type:AddComponentSpecial
     components:
     - type: SurgerySpeedModifier
       SpeedModifier: 2.5
+=======
+  speciesBlacklist:
+  - Vox
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
 
 - type: startingGear
   id: CMOGear

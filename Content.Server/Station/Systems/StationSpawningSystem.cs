@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+﻿using System.Linq;
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
 using Content.Server.Access.Systems;
 using Content.Server.DetailExaminable;
 using Content.Server.Humanoid;
@@ -187,6 +191,33 @@ public sealed class StationSpawningSystem : SharedStationSpawningSystem
             EquipStartingGear(entity.Value, startingGear, raiseEvent: false);
         }
 
+<<<<<<< HEAD
+=======
+        if (species.StartingGear != null)
+        {
+            var startingGear = _prototypeManager.Index<StartingGearPrototype>(species.StartingGear);
+            EquipStartingGear(entity.Value, startingGear, raiseEvent: false);
+        }
+
+        // Run loadouts after so stuff like storage loadouts can get
+        var jobLoadout = LoadoutSystem.GetJobPrototype(prototype?.ID);
+
+        if (_prototypeManager.TryIndex(jobLoadout, out RoleLoadoutPrototype? roleProto))
+        {
+            RoleLoadout? loadout = null;
+            profile?.Loadouts.TryGetValue(jobLoadout, out loadout);
+
+            // Set to default if not present
+            if (loadout == null)
+            {
+                loadout = new RoleLoadout(jobLoadout);
+                loadout.SetDefault(_prototypeManager);
+            }
+
+            EquipRoleLoadout(entity.Value, loadout, roleProto);
+        }
+
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
         var gearEquippedEv = new StartingGearEquippedEvent(entity.Value);
         RaiseLocalEvent(entity.Value, ref gearEquippedEv);
 

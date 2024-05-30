@@ -6,6 +6,7 @@
   requirements:
     - !type:DepartmentTimeRequirement
       department: Engineering
+<<<<<<< HEAD
       time: 18000 # 5 hours
     - !type:DepartmentTimeRequirement
       department: Medical
@@ -16,11 +17,23 @@
     - !type:DepartmentTimeRequirement
       department: Command
       time: 36000 # 10 hours
+=======
+      time: 18000 #5 hrs # Sunrise-RoleTime
+    - !type:DepartmentTimeRequirement
+      department: Medical
+      time: 18000 #5 hrs # Sunrise-RoleTime
+    - !type:DepartmentTimeRequirement
+      department: Security
+      time: 18000 #5 hrs # Sunrise-RoleTime
+    - !type:OverallPlaytimeRequirement
+      time: 36000 #10 hrs # Sunrise-RoleTime
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
   weight: 20
   startingGear: HoPGear
   icon: "JobIconHeadOfPersonnel"
   requireAdminNotify: true
   supervisors: job-supervisors-captain
+  radioBold: true
   canBeAntag: false
   access:
   - Command
@@ -55,6 +68,8 @@
   - !type:AddComponentSpecial
     components:
       - type: CommandStaff
+  speciesBlacklist:
+  - Vox
 
 - type: startingGear
   id: HoPGear

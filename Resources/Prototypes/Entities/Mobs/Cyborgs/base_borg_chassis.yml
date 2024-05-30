@@ -100,8 +100,12 @@
     - Science
   - type: ZombieImmune
   - type: Repairable
-    doAfterDelay: 10
-    allowSelfRepair: false
+    doAfterDelay: 3
+    damage:
+      types:
+        Blunt: -15
+        Slash: -15
+        Piercing: -15
   - type: BorgChassis
   - type: LockingWhitelist
     blacklist:
@@ -234,6 +238,7 @@
   - type: Emoting
   - type: GuideHelp
     guides:
+<<<<<<< HEAD
     - Cyborgs
     - Robotics
   - type: ProtectedFromStepTriggers
@@ -241,6 +246,12 @@
     damageProtection:
       flatReductions:
         Heat: 10 # capable of touching light bulbs and stoves without feeling pain!
+=======
+      - Cyborgs
+  - type: StepTriggerImmune
+#  - type: TTS
+#    voice: TODO add our TTS Voice Sunrise
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
 
 - type: entity
   abstract: true

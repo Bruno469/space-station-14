@@ -1,7 +1,11 @@
 {
   "version": 1,
   "license": "CC-BY-SA-3.0",
+<<<<<<< HEAD
   "copyright": "Made by Nimfar11 (GitHub) for Space Station 14. Reptilian edit by Nairod(Github), vox edit by Flareguy",
+=======
+  "copyright": "Made by Nimfar11 (GitHub) for Space Station 14, resprite by @linkblyat. Reptilian edit by kuro(388673708753027083)",
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
   "size": {
     "x": 32,
     "y": 32

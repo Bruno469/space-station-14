@@ -105,9 +105,12 @@
       arc: 360
     - type: StaticPrice
       price: 150
+<<<<<<< HEAD
     - type: DoorBolt # Goobstation - re adding fire door remote
     - type: AccessReader
       access: [ [ "Engineering" ] ]
+=======
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
     - type: PryUnpowered
       pryModifier: 0.5
     - type: PointLight

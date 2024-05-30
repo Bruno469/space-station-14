@@ -1,7 +1,11 @@
 {
   "version": 1,
   "license": "CC-BY-SA-3.0",
+<<<<<<< HEAD:Resources/Textures/Clothing/OuterClothing/Armor/syndie-raid.rsi/meta.json
   "copyright": "Made by alzore_(Discord) for SS14 using the colors of the blood-red hardsuit",
+=======
+  "copyright": "Taken from tgstation at commit https://github.com/tgstation/tgstation/commit/46a92082e4dd599e233ebf280050fb5be0107da9. equipped-OUTERCLOTHING-vox state taken from /vg/station at commit https://github.com/vgstation-coders/vgstation13/commit/31d6576ba8102135d058ef49c3cb6ecbe8db8a79",
+>>>>>>> 5775d4cdef (Merge sunrise build (#2)):Resources/Textures/Clothing/OuterClothing/WinterCoats/coatcargo.rsi/meta.json
   "size": {
     "x": 32,
     "y": 32

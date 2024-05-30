@@ -1,4 +1,5 @@
 <Document>
+<<<<<<< HEAD
   # Antagonists
   Antagonists are the driving force of every shift.
   They are the catalysts for chaos, conflict and mystery in Space Station 14 that also serve to provide a challenge to Nanotrasen and its [color=#cb0000]Security[/color] force.
@@ -16,4 +17,16 @@
   - [textlink="Revolutionaries" link="Revolutionaries"] who are intent on taking control of the station from the inside.
   - [textlink="Zombies" link="Zombies"] that crave the flesh of every crew member and creature on board.
   - [textlink="Several non-humanoid creatures" link="MinorAntagonists"] that usually just try to kill anything that moves.
+=======
+  # Антагонисты
+
+  Антагонисты - движущая сила каждой смены, обычно они создают конфликт и бросают вызов экипажу. Их цели могут быть самыми разными, но обычно они требуют воровства, саботажа или убийства.
+
+  ## Различные антагонисты
+
+  Антагонисты могут принимать различные формы, например:
+  - Ядерные оперативники, цель которых - проникнуть на станцию и уничтожить её.
+  - Предатели, проникающие в экипаж, которые могут совершать покушения и красть ценные вещи.
+  - Несколько негуманоидных существ, которые обычно просто пытаются уничтожить как можно больше членов экипажа.
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
 </Document>

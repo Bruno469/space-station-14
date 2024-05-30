@@ -18,10 +18,14 @@ public sealed class BreakerFlipRule : StationEventSystem<BreakerFlipRuleComponen
             return;
 
         var str = Loc.GetString("station-event-breaker-flip-announcement", ("data", Loc.GetString(Loc.GetString($"random-sentience-event-data-{RobustRandom.Next(1, 6)}"))));
+<<<<<<< HEAD
         stationEvent.StartAnnouncement = str;
 
         base.Added(uid, component, gameRule, args);
 
+=======
+        ChatSystem.DispatchGlobalAnnouncement(str, playSound: true, colorOverride: Color.Gold);
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
     }
 
     protected override void Started(EntityUid uid, BreakerFlipRuleComponent component, GameRuleComponent gameRule, GameRuleStartedEvent args)

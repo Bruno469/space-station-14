@@ -13,7 +13,12 @@ public abstract partial class LoadoutEffect
     public abstract bool Validate(
         HumanoidCharacterProfile profile,
         RoleLoadout loadout,
+<<<<<<< HEAD
         ICommonSession? session,
+=======
+        LoadoutPrototype proto, // Sunrise-Sponsors
+        ICommonSession session,
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
         IDependencyCollection collection,
         [NotNullWhen(false)] out FormattedMessage? reason);
 

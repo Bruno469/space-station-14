@@ -11,6 +11,7 @@
   name: syndicate agent
   suffix: Human, Base
   components:
+<<<<<<< HEAD
   - type: RandomHumanoidAppearance
     randomizeName: false
     hair: HairBald
@@ -22,6 +23,17 @@
   - type: NpcFactionMember
     factions:
     - Syndicate
+=======
+    - type: Loadout
+      prototypes: [SyndicateOperativeGearExtremelyBasic]
+    - type: RandomMetadata
+      nameSegments: # Russian-LastNameGender
+      - names_first_male
+      - names_last_male
+    - type: NpcFactionMember
+      factions:
+      - Syndicate
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
 
 - type: entity
   parent: MobHumanSyndicateAgentBase

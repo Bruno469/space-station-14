@@ -31,6 +31,7 @@
   abstract: true
   components:
     - type: StationArrivals
+      shuttlePath: /Maps/_Sunrise/Shuttles/arrivals.yml # Sunrise-edit
 
 - type: entity
   id: BaseStationGateway
@@ -55,8 +56,12 @@
           nameDataset: TradeStationNames
         mining: !type:GridSpawnGroup
           paths:
+<<<<<<< HEAD
           - /Maps/Shuttles/mining.yml
           nameDataset: MiningShuttleNames
+=======
+          - /Maps/_Sunrise/Shuttles/mining_shuttle.yml # Sunrise-edit
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
         # Spawn last
         ruins: !type:GridSpawnGroup
           hide: true

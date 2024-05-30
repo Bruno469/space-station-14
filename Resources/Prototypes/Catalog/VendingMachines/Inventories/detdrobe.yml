@@ -4,8 +4,13 @@
     ClothingUniformJumpsuitDetective: 2
     ClothingUniformJumpskirtDetective: 2
     ClothingShoesColorBrown: 2
+<<<<<<< HEAD
     ClothingOuterCoatDetectiveLoadout: 1
     ClothingOuterCoatDetectiveLoadoutGrey: 1
+=======
+    ClothingOuterCoatDetectiveLoadout: 2
+    ClothingOuterCoatDetectiveDark: 2
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
     ClothingHeadHatFedoraBrown: 2
     ClothingUniformJumpsuitDetectiveGrey: 2
     ClothingUniformJumpskirtDetectiveGrey: 2

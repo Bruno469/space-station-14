@@ -35,6 +35,8 @@
   id: DeathSquad
   parent: EventHumanoidMindShielded
   randomizeName: false
+  speciesBlacklist: # Sunrise-edit
+    - Diona
   components:
     - type: GhostRole
       name: ghost-role-information-Death-Squad-name
@@ -352,6 +354,8 @@
 
 - type: randomHumanoidSettings
   id: ERTSecurity
+  speciesBlacklist: # Sunrise-edit
+    - Diona
   parent: ERTLeader
   components:
     - type: GhostRole
@@ -497,6 +501,8 @@
       settings: CBURNAgent
 
 - type: randomHumanoidSettings
+  speciesBlacklist: # Sunrise-edit
+    - Diona
   id: CBURNAgent
   parent: EventHumanoidMindShielded
   components:
@@ -550,7 +556,7 @@
       sprite: Mobs/Species/Human/parts.rsi
       state: full
     - type: RandomMetadata
-      nameSegments: [ names_death_commando ]
+      nameSegments: [ ru_names_death_commando ] # Sunrise-edit
     - type: RandomHumanoidSpawner
       settings: SyndicateAgent
 

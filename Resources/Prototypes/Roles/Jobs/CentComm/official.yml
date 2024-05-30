@@ -6,7 +6,8 @@
   setPreference: false
   startingGear: CentcomGear
   icon: "JobIconNanotrasen"
-  supervisors: job-supervisors-hos
+  supervisors: job-supervisors-centcom
+  radioBold: true
   canBeAntag: false
   # Goobstation - Siouxcide, prevent felinids from playing command
   requirements:
@@ -16,6 +17,8 @@
   - AllAccess
   access:
   - CentralCommand
+  speciesBlacklist:
+  - Vox
 
 - type: startingGear
   id: CentcomGear

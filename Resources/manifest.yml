@@ -1,6 +1,10 @@
+<<<<<<< HEAD
 ﻿defaultWindowTitle: Gaby Station
+=======
+defaultWindowTitle: ЫЫ 14
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
 windowIconSet: /Textures/Logo/icon
-splashLogo: /Textures/Logo/logo.png
+splashLogo: /Textures/_Sunrise/loading_screen.jpg
 
 # PJB PLEASE
 # naooooooooooooooooo nao

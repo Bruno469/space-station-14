@@ -23,6 +23,8 @@
     FacialHair: MobHumanoidAnyMarking
     Snout: MobHumanoidAnyMarking
     Chest: MobHumanTorso
+    HeadTop: MobHumanoidAnyMarking # Sunrise-Sponsors
+    Tail: MobHumanoidAnyMarking # Sunrise-Sponsors
     Eyes: MobHumanoidEyes
     HeadTop: MobHumanoidAnyMarking
     LArm: MobHumanLArm
@@ -50,11 +52,15 @@
     Snout:
       points: 1
       required: false
-    Tail: # the cat tail joke
-      points: 0
+    Tail:
+      points: 1 # Sunrise-Sponsors
       required: false
     HeadTop:
+<<<<<<< HEAD
       points: 1
+=======
+      points: 1 # Sunrise-Sponsors
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
       required: false
     Chest:
       points: 1

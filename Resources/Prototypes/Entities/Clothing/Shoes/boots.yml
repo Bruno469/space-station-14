@@ -20,8 +20,14 @@
     sprite: Clothing/Shoes/Boots/jackboots.rsi
   - type: Clothing
     sprite: Clothing/Shoes/Boots/jackboots.rsi
+<<<<<<< HEAD
   - type: ClothingSlowOnDamageModifier
     modifier: 0.5
+=======
+  - type: FootstepModifier
+    footstepSoundCollection:
+      collection: FootstepBoots
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
 
 - type: entity
   parent: ClothingShoesBaseButcherable

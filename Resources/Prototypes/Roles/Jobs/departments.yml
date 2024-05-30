@@ -56,9 +56,14 @@
   id: Command
   name: department-Command
   description: department-Command-description
-  color: "#334E6D"
+  color: "#052EED" # Sunrise-Edit
   roles:
   - Captain
+<<<<<<< HEAD
+=======
+  - IAA # Sunrise-Edit
+  - CentralCommandOfficial
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
   - ChiefEngineer
   - ChiefMedicalOfficer
   - HeadOfPersonnel

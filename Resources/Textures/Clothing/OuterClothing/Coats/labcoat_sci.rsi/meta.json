@@ -1,7 +1,11 @@
 {
   "version": 1,
   "license": "CC-BY-SA-3.0",
+<<<<<<< HEAD
   "copyright": "Taken from tgstation at commit https://github.com/tgstation/tgstation/commit/4f6190e2895e09116663ef282d3ce1d8b35c032e, Resprite by DreamlyJack, Fix sprites by DreamlyJack",
+=======
+  "copyright": "Taken from tgstation at commit https://github.com/tgstation/tgstation/commit/4f6190e2895e09116663ef282d3ce1d8b35c032e, equipped and icon remade by 𝚆𝚊𝚛𝚝𝚊𝚐𝚕𝚎𝚡#0912, reptilian made by murouxlul(705433554602950793)",
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
   "size": {
     "x": 32,
     "y": 32
@@ -19,6 +23,14 @@
     },
     {
       "name": "open-equipped-OUTERCLOTHING",
+      "directions": 4
+    },
+    {
+      "name": "equipped-OUTERCLOTHING-reptilian",
+      "directions": 4
+    },
+    {
+      "name": "open-equipped-OUTERCLOTHING-reptilian",
       "directions": 4
     },
     {

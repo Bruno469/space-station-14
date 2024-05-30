@@ -5,9 +5,15 @@
   description: A lightweight yet strong exosuit used for special cleanup operations.
   components:
   - type: Sprite
+<<<<<<< HEAD
     sprite: _Sunrise/Clothing/OuterClothing/Hardsuits/cburn-commander.rsi
   - type: Clothing
     sprite: _Sunrise/Clothing/OuterClothing/Hardsuits/cburn-commander.rsi
+=======
+    sprite: _Sunrise/Clothing/OuterClothing/hardsuits/cburncommander.rsi
+  - type: Clothing
+    sprite: _Sunrise/Clothing/OuterClothing/hardsuits/cburncommander.rsi
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
   - type: PressureProtection
     highPressureMultiplier: 0.02
     lowPressureMultiplier: 1000
@@ -15,8 +21,12 @@
     walkModifier: 1.0
     sprintModifier: 1.0
   - type: TemperatureProtection
+<<<<<<< HEAD
     heatingCoefficient: 0.001
     coolingCoefficient: 0.001
+=======
+    coefficient: 0.001
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
   - type: Armor
     modifiers:
       coefficients:
@@ -31,6 +41,7 @@
     damageCoefficient: 0.7
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetCBURNLeader
+<<<<<<< HEAD
 
 - type: entity
   parent: ClothingOuterHardsuitBase
@@ -218,3 +229,5 @@
     sprite: _Sunrise/Clothing/OuterClothing/Hardsuits/engineering-compact.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitEngineeringCompact
+=======
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))

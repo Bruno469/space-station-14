@@ -4,8 +4,14 @@
   description: job-description-bartender
   playTimeTracker: JobBartender
   requirements:
+<<<<<<< HEAD
     - !type:OverallPlaytimeRequirement
       time: 1800 # 30 Minutes
+=======
+    - !type:DepartmentTimeRequirement
+      department: Civilian
+      time: 3600 #1 hrs # Sunrise-RoleTime
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
   startingGear: BartenderGear
   icon: "JobIconBartender"
   supervisors: job-supervisors-hop

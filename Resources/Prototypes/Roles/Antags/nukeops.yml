@@ -6,8 +6,15 @@
   objective: roles-antag-nuclear-operative-objective
   requirements:
   - !type:OverallPlaytimeRequirement
+<<<<<<< HEAD
     time: 18000 # 5h
   guides: [ NuclearOperatives ]
+=======
+    time: 36000 # 10h # Sunrise-RoleTime
+  - !type:DepartmentTimeRequirement
+    department: Security
+    time: 7200 # 2h # Sunrise-RoleTime
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
 
 - type: antag
   id: NukeopsMedic
@@ -17,11 +24,18 @@
   objective: roles-antag-nuclear-operative-agent-objective
   requirements:
   - !type:OverallPlaytimeRequirement
-    time: 18000 # 5h
+    time: 36000 # 10h # Sunrise-RoleTime
   - !type:RoleTimeRequirement
     role: JobChemist
+<<<<<<< HEAD
     time: 10800 # 3h
   guides: [ NuclearOperatives ]
+=======
+    time: 18000 # 5h # Sunrise-RoleTime
+  - !type:DepartmentTimeRequirement
+    department: Security
+    time: 18000 # 5h # Sunrise-RoleTime
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
 
 - type: antag
   id: NukeopsCommander
@@ -31,10 +45,10 @@
   objective: roles-antag-nuclear-operative-commander-objective
   requirements:
   - !type:OverallPlaytimeRequirement
-    time: 18000 # 5h
+    time: 36000 # 10h # Sunrise-RoleTime
   - !type:DepartmentTimeRequirement
     department: Security
-    time: 18000 # 5h
+    time: 18000 # 5h # Sunrise-RoleTime
   # should be changed to nukie playtime when thats tracked (wyci)
   guides: [ NuclearOperatives ]
 

@@ -70,6 +70,8 @@
   name: positronic brain
   description: An artificial brain capable of spontaneous neural activity.
   components:
+    - type: Organ # Sunrise-Edit
+    - type: Brain # Sunrise-Edit
     - type: Sprite
       sprite: Objects/Specific/Robotics/mmi.rsi
       layers:

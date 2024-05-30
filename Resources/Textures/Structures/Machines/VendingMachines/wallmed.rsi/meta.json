@@ -1,7 +1,11 @@
 {
   "version": 1,
   "license": "CC-BY-SA-3.0",
+<<<<<<< HEAD
   "copyright": "Taken from Baystation at commit https://github.com/Baystation12/Baystation12/commit/bddd2b27f6103e46dadb6d251c7c1832e012a84d",
+=======
+  "copyright": "Taken from https://github.com/tgstation/tgstation/pull/71788/commits/2f94363d12aae96e757cb052d0f7846d7e11d1066",
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
   "size": {
     "x": 32,
     "y": 32
@@ -50,6 +54,7 @@
       "directions": 4,
       "delays": [
         [
+<<<<<<< HEAD
           0.1,
           0.1,
           0.1
@@ -68,12 +73,30 @@
           0.1,
           0.1,
           0.1
+=======
+          0.2,
+          0.2,
+          0.2,
+          0.2
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
         ]
       ]
     },
     {
+<<<<<<< HEAD
       "name": "off",
       "directions": 4
+=======
+      "name": "normal-unshaded",
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
     },
     {
       "name": "broken",

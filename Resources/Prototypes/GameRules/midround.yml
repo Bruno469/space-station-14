@@ -24,9 +24,17 @@
       allowNonHumans: true
       multiAntagSetting: NotExclusive
       startingGear: ThiefGear
+<<<<<<< HEAD
       components:
       - type: Pacified
       mindRoles:
       - MindRoleThief
+=======
+#      components:
+#      - type: Pacified # Воры не терпилы
+      mindComponents:
+      - type: ThiefRole
+        prototype: Thief
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
       briefing:
         sound: "/Audio/Misc/thief_greeting.ogg"

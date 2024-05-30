@@ -268,12 +268,17 @@
   - type: FootstepModifier
     footstepSoundCollection:
       collection: FootstepHoverBorg
+<<<<<<< HEAD
   - type: SolutionScanner
   - type: InteractionPopup
     interactSuccessString: petting-success-medical-cyborg
     interactFailureString: petting-failure-medical-cyborg
     interactSuccessSound:
       path: /Audio/Ambience/Objects/periodic_beep.ogg
+=======
+  - type: TTS
+    voice: FastCore
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
 
 - type: entity
   id: BorgChassisService

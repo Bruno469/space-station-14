@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 using System.Diagnostics.CodeAnalysis;
+=======
+﻿using System.Diagnostics.CodeAnalysis;
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
 using Content.Client.Lobby;
 using Content.Shared.CCVar;
 using Content.Shared.Players;
@@ -13,6 +17,7 @@ using Robust.Shared.Network;
 using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Utility;
+using Content.Shared.Preferences;
 
 namespace Content.Client.Players.PlayTimeTracking;
 
@@ -24,6 +29,7 @@ public sealed class JobRequirementsManager : ISharedPlaytimeManager
     [Dependency] private readonly IEntityManager _entManager = default!;
     [Dependency] private readonly IPlayerManager _playerManager = default!;
     [Dependency] private readonly IPrototypeManager _prototypes = default!;
+    [Dependency] private readonly IClientPreferencesManager _clientPreferences = default!;
 
     private readonly Dictionary<string, TimeSpan> _roles = new();
     private readonly List<string> _roleBans = new();
@@ -108,7 +114,24 @@ public sealed class JobRequirementsManager : ISharedPlaytimeManager
         if (player == null)
             return true;
 
+<<<<<<< HEAD
         return CheckRoleRequirements(job, profile, out reason);
+=======
+        // Sunrise-Start
+        if (_clientPreferences.Preferences != null)
+        {
+            var profile = (HumanoidCharacterProfile) _clientPreferences.Preferences.SelectedCharacter;
+
+            if (job.SpeciesBlacklist.Contains(profile.Species))
+            {
+                reason = FormattedMessage.FromUnformatted($"Расса {Loc.GetString($"species-name-{profile.Species.ToLower()}")} не может занимать эту должность. Для спонсоров ограничений нет");
+                return false;
+            }
+        }
+        // Sunrise-End
+
+        return CheckRoleTime(job.Requirements, out reason);
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
     }
 
     public bool CheckRoleRequirements(JobPrototype job, HumanoidCharacterProfile? profile, [NotNullWhen(false)] out FormattedMessage? reason)

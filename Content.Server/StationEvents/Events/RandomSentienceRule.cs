@@ -68,6 +68,7 @@ public sealed class RandomSentienceRule : StationEventSystem<RandomSentienceRule
         var kind2 = groupList.Count > 1 ? groupList[1] : "???";
         var kind3 = groupList.Count > 2 ? groupList[2] : "???";
 
+<<<<<<< HEAD
         ChatSystem.DispatchStationAnnouncement(
             station.Value,
             Loc.GetString("station-event-random-sentience-announcement",
@@ -78,5 +79,26 @@ public sealed class RandomSentienceRule : StationEventSystem<RandomSentienceRule
             playDefaultSound: false,
             colorOverride: Color.Gold
         );
+=======
+        foreach (var target in targetList)
+        {
+            var station = StationSystem.GetOwningStation(target);
+            if(station == null)
+                continue;
+            stationsToNotify.Add((EntityUid) station);
+        }
+        foreach (var station in stationsToNotify)
+        {
+            ChatSystem.DispatchStationAnnouncement(
+                station,
+                Loc.GetString("station-event-random-sentience-announcement",
+                    ("kind1", kind1), ("kind2", kind2), ("kind3", kind3), ("amount", groupList.Count),
+                    ("data", Loc.GetString($"random-sentience-event-data-{RobustRandom.Next(1, 6)}")),
+                    ("strength", Loc.GetString($"random-sentience-event-strength-{RobustRandom.Next(1, 8)}"))),
+                playSound: false,
+                colorOverride: Color.Gold
+            );
+        }
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
     }
 }

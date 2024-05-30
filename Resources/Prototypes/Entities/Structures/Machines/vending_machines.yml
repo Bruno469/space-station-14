@@ -75,6 +75,8 @@
   - type: Anchorable
   - type: TypingIndicator
     proto: robot
+  - type: TTS
+    voice: FactCore
   - type: Speech
     speechVerb: Robotic
     speechSounds: Vending
@@ -160,7 +162,7 @@
     pack: GenericVendGoodbyes
   - type: Speech
   - type: Sprite
-    sprite: Structures/Machines/VendingMachines/ammo.rsi
+    sprite: _Sunrise/Structures/Machines/VendingMachines/ammo.rsi
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]

@@ -5,7 +5,7 @@
   id: UplinkPistolViper
   name: uplink-pistol-viper-name
   description: uplink-pistol-viper-desc
-  productEntity: WeaponPistolViper
+  productEntity: WeaponPistolViperBiocode # Sunrise-edit
   cost:
     Telecrystal: 14 # goob - this +1 mag = 20 TC
   categories:
@@ -16,7 +16,7 @@
   id: UplinkRevolverPython
   name: uplink-revolver-python-name
   description: uplink-revolver-python-desc
-  productEntity: WeaponRevolverPythonAP
+  productEntity: WeaponRevolverPythonAPBiocode # Sunrise-edit
   cost:
     Telecrystal: 24 # goob - Originally was 65 TC but was not used due to high cost. and the same happened at 40 TC. +2 mags = 40 TC.
   categories:
@@ -28,7 +28,7 @@
   id: UplinkPistolCobra
   name: uplink-pistol-cobra-name
   description: uplink-pistol-cobra-desc
-  productEntity: WeaponPistolCobra
+  productEntity: WeaponPistolCobraBiocode # Sunrise-edit
   cost:
     Telecrystal: 17 # goob - this +1 mag = 25 TC
   categories:
@@ -51,7 +51,7 @@
   name: uplink-esword-name
   description: uplink-esword-desc
   icon: { sprite: /Textures/Objects/Weapons/Melee/e_sword.rsi, state: icon }
-  productEntity: EnergySword
+  productEntity: EnergySwordBiocode # Sunrise-edit
   cost:
     Telecrystal: 40 # goob
   categories:
@@ -1112,7 +1112,10 @@
     Telecrystal: 30 # goob
   categories:
     - UplinkAllies
+<<<<<<< HEAD
   saleLimit: 1 # WD EDIT
+=======
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
 
 - type: listing
   id: UplinkSyndicatePersonalAI

@@ -3,8 +3,13 @@
   files:
     - /Audio/StationEvents/running_out.ogg
     - /Audio/StationEvents/countdown.ogg
+<<<<<<< HEAD
     - /Audio/StationEvents/clearly_nuclear.ogg    
     - /Audio/StationEvents/sound_station_14.ogg
 
     # Goobstation
     - /Audio/StationEvents/last_call.ogg
+=======
+    - /Audio/StationEvents/clearly_nuclear.ogg
+    - /Audio/_Sunrise/StationEvents/level.ogg
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))

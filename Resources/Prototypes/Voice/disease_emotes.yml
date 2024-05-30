@@ -19,6 +19,7 @@
   chatTriggers:
     - cough
     - coughs
+<<<<<<< HEAD
     - coughed 
     - cough.
     - coughs.
@@ -26,6 +27,12 @@
     - cough!
     - coughs!
     - coughed!
+=======
+    # Russian-Localization-Start
+    - кашель
+    - кашляет
+    # Russian-Localization-End
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
 
 - type: emote
   id: CatMeow
@@ -66,6 +73,10 @@
   chatTriggers:
     - yawn
     - yawns
+    # Russian-Localization-Start
+    - зевок
+    - зевает
+    # Russian-Localization-End
 
 - type: emote
   id: Snore

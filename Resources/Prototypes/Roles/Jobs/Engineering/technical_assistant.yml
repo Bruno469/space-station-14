@@ -5,10 +5,14 @@
   playTimeTracker: JobTechnicalAssistant
   requirements:
     - !type:OverallPlaytimeRequirement
+<<<<<<< HEAD
       time: 1800 # 30 Minutes
+=======
+      time: 3600 #1 hr # Sunrise-RoleTime
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
     - !type:DepartmentTimeRequirement
       department: Engineering
-      time: 54000 #15 hrs
+      time: 18000 #5 hrs # Sunrise-RoleTime
       inverted: true # stop playing intern if you're good at engineering!
   startingGear: TechnicalAssistantGear
   icon: "JobIconTechnicalAssistant"
@@ -27,6 +31,9 @@
     belt: ClothingBeltUtilityEngineering
     ears: ClothingHeadsetEngineering
     pocket2: BookEngineersHandbook
+<<<<<<< HEAD
   #storage:
     #back:
     #- Stuff
+=======
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))

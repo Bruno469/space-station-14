@@ -1,12 +1,21 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetCBURNLeader
+<<<<<<< HEAD
   categories: [ HideSpawnMenu ]
+=======
+  noSpawn: true
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
   name: cburn commander helmet
   description: A pressure resistant and fireproof hood worn by special cleanup units.
   components:
   - type: Sprite
+<<<<<<< HEAD
     sprite: _Sunrise/Clothing/Head/Hardsuits/cburn-commander.rsi
+=======
+    netsync: false
+    sprite: _Sunrise/Clothing/Head/hardsuits/cburncommander.rsi
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
     layers:
     - state: icon
     - state: icon-unshaded
@@ -27,8 +36,12 @@
     highPressureMultiplier: 0.08
     lowPressureMultiplier: 1000
   - type: TemperatureProtection
+<<<<<<< HEAD
     heatingCoefficient: 0.005
     coolingCoefficient: 0.005
+=======
+    coefficient: 0.005
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
   - type: Armor
     modifiers:
       coefficients:
@@ -39,6 +52,7 @@
         Shock: 0.1
         Cold: 0.2
         Radiation: 0.2
+<<<<<<< HEAD
 
 # Blueshield Hardsuit
 
@@ -164,3 +178,5 @@
   - type: NightVisionDevice
     displayColor: "#ebeb00"
     displayShader: NVDDisplay
+=======
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))

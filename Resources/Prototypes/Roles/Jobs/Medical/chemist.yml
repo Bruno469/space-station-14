@@ -6,7 +6,7 @@
   requirements:
     - !type:DepartmentTimeRequirement
       department: Medical
-      time: 14400 #4 hrs
+      time: 7200 #2 hrs # Sunrise-RoleTime
   startingGear: ChemistGear
   icon: "JobIconChemist"
   supervisors: job-supervisors-cmo
@@ -29,6 +29,9 @@
     belt: ChemBag
     pocket1: HandLabeler
     eyes: ClothingEyesGlassesChemical
+<<<<<<< HEAD
   #storage:
     #back:
     #- Stuff
+=======
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))

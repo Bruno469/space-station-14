@@ -27,6 +27,10 @@ research-technology-draconic-munitions = Драконьи боеприпасы
 research-technology-uranium-munitions = Урановые боеприпасы
 research-technology-explosive-technology = Взрывчатые вещества
 research-technology-weaponized-laser-manipulation = Манипулирование лазерным оружием
+<<<<<<< HEAD
+=======
+research-technology-nonlethal-ammunition = Нелетальные боеприпасы
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
 research-technology-practice-ammunition = Учебные боеприпасы
 research-technology-concentrated-laser-weaponry = Концентрированное лазерное оружие
 research-technology-wave-particle-harnessing = Применение волновых частиц
@@ -65,6 +69,9 @@ research-technology-honk-mech = Мех Х.О.Н.К.
 research-technology-advanced-spray = Продвинутые спреи
 research-technology-quantum-fiber-weaving = Плетение квантового волокна
 research-technology-bluespace-cargo-transport = Блюспейс-транспортировка грузов
+<<<<<<< HEAD
 research-technology-energy-gun = Энергетическое вооружение
 research-technology-energy-gun-advance = Продвинутое энергетическое вооружение
 research-technology-advance-laser = Военное энергетическое вооружение
+=======
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))

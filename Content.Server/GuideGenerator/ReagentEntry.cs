@@ -1,11 +1,14 @@
 using System.Linq;
 using System.Text.Json.Serialization;
-using Content.Server.Body.Components;
-using Content.Shared.Body.Prototypes;
+using Content.Server._Sunrise.GuideGenerator;
 using Content.Shared.Chemistry.Reaction;
 using Content.Shared.Chemistry.Reagent;
+<<<<<<< HEAD
 using Content.Shared.EntityEffects;
 using Robust.Shared.Prototypes;
+=======
+using ReagentEffectsEntry = Content.Server._Sunrise.GuideGenerator.ReagentEffectsEntry;
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
 
 namespace Content.Server.GuideGenerator;
 
@@ -29,21 +32,34 @@ public sealed class ReagentEntry
     [JsonPropertyName("color")]
     public string SubstanceColor { get; }
 
+    [JsonPropertyName("textColor")]
+    public string TextColor { get; } // Wiki
+
     [JsonPropertyName("recipes")]
     public List<string> Recipes { get; } = new();
 
     [JsonPropertyName("metabolisms")]
-    public Dictionary<string, ReagentEffectsEntry>? Metabolisms { get; }
+    public Dictionary<string, ReagentEffectsEntry>? Metabolisms { get; } // Wiki
 
     public ReagentEntry(ReagentPrototype proto)
     {
         Id = proto.ID;
-        Name = proto.LocalizedName;
+        Name = TextTools.TextTools.CapitalizeString(proto.LocalizedName); // Wiki
         Group = proto.Group;
         Description = proto.LocalizedDescription;
         PhysicalDescription = proto.LocalizedPhysicalDescription;
         SubstanceColor = proto.SubstanceColor.ToHex();
-        Metabolisms = proto.Metabolisms?.ToDictionary(x => x.Key.Id, x => x.Value);
+
+        // Wiki-Start
+        var r = proto.SubstanceColor.R;
+        var g = proto.SubstanceColor.G;
+        var b = proto.SubstanceColor.B;
+        TextColor = (0.2126f * r + 0.7152f * g + 0.0722f * b > 0.5
+            ? Color.Black
+            : Color.White).ToHex();
+
+        Metabolisms = proto.Metabolisms?.ToDictionary(x => x.Key.Id, x => new ReagentEffectsEntry(x.Value));
+        // Wiki-End
     }
 }
 
@@ -61,13 +77,34 @@ public sealed class ReactionEntry
     [JsonPropertyName("products")]
     public Dictionary<string, float> Products { get; }
 
+    // Wiki-Start
+    [JsonPropertyName("mixingCategories")]
+    public List<MixingCategoryEntry> MixingCategories { get; } = new();
+
+    [JsonPropertyName("minTemp")]
+    public float MinTemp { get; }
+
+    [JsonPropertyName("maxTemp")]
+    public float MaxTemp { get; }
+
+    [JsonPropertyName("hasMax")]
+    public bool HasMax { get; }
+
     [JsonPropertyName("effects")]
+<<<<<<< HEAD
     public List<EntityEffect> Effects { get; }
+=======
+    public List<ReagentEffectEntry> ExportEffects { get; } = new();
+
+    [JsonIgnore]
+    // Wiki-End
+    public List<ReagentEffect> Effects { get; }
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
 
     public ReactionEntry(ReactionPrototype proto)
     {
         Id = proto.ID;
-        Name = proto.Name;
+        Name = TextTools.TextTools.CapitalizeString(proto.Name); // Wiki
         Reactants =
             proto.Reactants
                 .Select(x => KeyValuePair.Create(x.Key, new ReactantEntry(x.Value.Amount.Float(), x.Value.Catalyst)))
@@ -77,6 +114,13 @@ public sealed class ReactionEntry
                 .Select(x => KeyValuePair.Create(x.Key, x.Value.Float()))
                 .ToDictionary(x => x.Key, x => x.Value);
         Effects = proto.Effects;
+
+        // Wiki-Start
+        ExportEffects = proto.Effects.Select(x => new ReagentEffectEntry(x)).ToList();
+        MinTemp = proto.MinimumTemperature;
+        MaxTemp = proto.MaximumTemperature;
+        HasMax = !float.IsPositiveInfinity(MaxTemp);
+        // Wiki-End
     }
 }
 

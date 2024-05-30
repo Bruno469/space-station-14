@@ -108,6 +108,7 @@
   - type: TypingIndicator
     proto: robot
   - type: ZombieImmune
+<<<<<<< HEAD
   - type: ProtectedFromStepTriggers
   - type: NoSlip
   - type: Insulated
@@ -158,6 +159,11 @@
     interactFailureString: petting-failure-firebot
     interactSuccessSound:
       path: /Audio/Ambience/Objects/periodic_beep.ogg
+=======
+  - type: StepTriggerImmune
+  - type: TTS
+    voice: FactCore # Sunrise-TTS
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
 
 - type: entity
   parent: MobSiliconBase

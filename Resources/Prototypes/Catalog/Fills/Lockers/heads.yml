@@ -25,10 +25,30 @@
   suffix: Filled
   parent: LockerQuarterMaster
   components:
+<<<<<<< HEAD
   - type: EntityTableContainerFill
     containers:
       entity_storage: !type:NestedSelector
         tableId: LockerFillQuarterMaster
+=======
+  - type: StorageFill
+    contents:
+      - id: BoxFolderQmClipboard
+      - id: CargoRequestComputerCircuitboard
+      - id: CargoShuttleComputerCircuitboard
+      - id: CargoShuttleConsoleCircuitboard
+      - id: SalvageShuttleConsoleCircuitboard
+      - id: CargoBountyComputerCircuitboard
+      - id: CigPackGreen
+        prob: 0.50
+      - id: DoorRemoteCargo
+      - id: RubberStampQm
+      - id: RubberStampDenied
+      - id: RubberStampApproved
+      - id: ClothingHeadsetAltCargo
+      - id: BoxEncryptionKeyCargo
+      - id: PrinterDocFlatpack # Sunrise-Printer
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
 
 # No laser table
 - type: entityTable
@@ -53,6 +73,7 @@
     - id: WeaponDisabler
     - id: ClothingEyesGlassesCommand
 
+<<<<<<< HEAD
 # No laser table + Laser table
 - type: entityTable
   id: LockerFillCaptainLaser
@@ -61,6 +82,35 @@
     - !type:NestedSelector
       tableId: LockerFillCaptainNoLaser
     - id: WeaponAntiqueLaser
+=======
+- type: entity
+  id: LockerCaptainFilled
+  suffix: Filled, AntiqueLaser
+  parent: LockerCaptain
+  components:
+  - type: StorageFill
+    contents:
+      - id: ClothingOuterArmorCaptainCarapace
+      - id: NukeDisk
+      - id: PinpointerNuclear
+      - id: CaptainIDCard
+      - id: WeaponDisabler
+      - id: CommsComputerCircuitboard
+      - id: ClothingHeadsetAltCommand
+      - id: SpaceCash1000
+      - id: PlushieNuke
+        prob: 0.1
+      - id: CigarGoldCase
+        prob: 0.25
+      - id: ClothingBeltSheathFilled
+      - id: DoorRemoteCommand
+      - id: RubberStampCaptain
+      - id: WeaponAntiqueLaser
+      - id: JetpackCaptainFilled
+      - id: MedalCase
+      - id: ClothingHeadCaptainHat
+      - id: ClothingOuterCoatCaptain
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
 
 # Hardsuit table, used for suit storage as well
 - type: entityTable
@@ -142,10 +192,38 @@
   suffix: Filled
   parent: LockerHeadOfPersonnel
   components:
+<<<<<<< HEAD
   - type: EntityTableContainerFill
     containers:
       entity_storage: !type:NestedSelector
         tableId: LockerFillHeadOfPersonnel
+=======
+  - type: StorageFill
+    contents:
+      - id: HoPIDCard
+      - id: ClothingHeadsetCommand
+      - id: BoxPDA
+      - id: BoxID
+      - id: BoxHeadset
+      - id: IDComputerCircuitboard
+      - id: WeaponDisabler
+      - id: CigarGoldCase
+        prob: 0.25
+        # Fuck the HoP they don't deserve fucking cigars.
+        # Yes they do fuck you.
+      - id: DoorRemoteService
+      - id: ClothingNeckGoldmedal
+      - id: RubberStampHop
+      - id: RubberStampDenied
+      - id: RubberStampApproved
+      - id: BoxEncryptionKeyPassenger
+      - id: BoxEncryptionKeyService
+      - id: ClothingBackpackIan
+        prob: 0.5
+      - id: ClothingOuterCoatHOP
+      - id: AccessConfigurator
+      - id: PrinterDocFlatpack # Sunrise-Printer
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
 
 # No hardsuit table
 - type: entityTable
@@ -339,7 +417,12 @@
       - id: ClothingMaskGasSwat
 #      - id: ClothingShoeSlippersDuck: Need more space for style
 #        prob: 0.2
+<<<<<<< HEAD
       - id: WeaponEnergyGunMultiphase  # Sunrise-AEG
+=======
+      - id: DrinkVacuumFlask
+        prob: 0.8
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
       - id: ClothingBeltSecurityFilled
       - id: ClothingHeadsetAltSecurity
       - id: ClothingEyesGlassesSecurity

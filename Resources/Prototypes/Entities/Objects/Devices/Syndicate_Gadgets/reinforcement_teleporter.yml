@@ -29,8 +29,16 @@
     raffle:
       settings: default
   - type: GhostRoleMobSpawner
+<<<<<<< HEAD
     prototype: MobHumanSyndicateAgentSpy
     selectablePrototypes: ["SyndicateAgentMedic", "SyndicateAgentSpy", "SyndicateAgentThief"]
+=======
+    prototype: MobHumanSyndicateAgent
+  - type: EmitSoundOnUse
+    sound: /Audio/Misc/emergency_meeting.ogg
+  - type: UseDelay
+    delay: 300
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
 
 # Goobstation - Nukeop reinforcement
 - type: entity
@@ -64,6 +72,7 @@
   - type: GhostRoleMobSpawner
     prototype: MobMonkeySyndicateAgent
     selectablePrototypes: ["SyndicateMonkey", "SyndicateKobold"]
+
 
 - type: entity
   parent: ReinforcementRadioSyndicateAncestor

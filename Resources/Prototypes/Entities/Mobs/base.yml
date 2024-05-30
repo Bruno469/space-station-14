@@ -51,6 +51,11 @@
   abstract: true
   components:
   - type: Polymorphable
+<<<<<<< HEAD
+=======
+  - type: StatusIcon
+  - type: TTS # Sunrise-TTS
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
 
 # Used for mobs that have health and can take damage.
 - type: entity

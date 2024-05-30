@@ -226,6 +226,7 @@
       "name": "paper_stamp-generic"
     },
     {
+<<<<<<< HEAD
       "name": "paper_stamp-greytide"
     },
 	  {
@@ -233,6 +234,9 @@
     },
     {
       "name": "syndicate_card"
+=======
+      "name": "paper_stamp-approve"
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
     },
     {
       "name": "paper_stamp-psychologist"

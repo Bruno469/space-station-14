@@ -4,7 +4,13 @@
   antagonist: true
   setPreference: true
   objective: roles-antag-initial-infected-objective
+<<<<<<< HEAD
   guides: [ Zombies ]
+=======
+  requirements:
+  - !type:OverallPlaytimeRequirement
+    time: 54000 # 15h # Sunrise-RoleTime
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
 
 - type: antag
   id: Zombie

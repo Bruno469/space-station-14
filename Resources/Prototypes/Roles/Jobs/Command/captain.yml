@@ -1,4 +1,4 @@
-- type: job
+﻿- type: job
   id: Captain
   name: job-name-captain
   description: job-description-captain
@@ -6,6 +6,7 @@
   requirements:
     - !type:DepartmentTimeRequirement
       department: Engineering
+<<<<<<< HEAD
       time: 27000 # 7.5 hours
     - !type:DepartmentTimeRequirement
       department: Medical
@@ -16,12 +17,24 @@
     - !type:DepartmentTimeRequirement
       department: Command
       time: 54000 # 15 hours
+=======
+      time: 36000 #10 hrs # Sunrise-RoleTime
+    - !type:DepartmentTimeRequirement
+      department: Medical
+      time: 36000 #10 hrs # Sunrise-RoleTime
+    - !type:DepartmentTimeRequirement
+      department: Security
+      time: 36000 #10 hrs # Sunrise-RoleTime
+    - !type:OverallPlaytimeRequirement
+      time: 72000 #20 hrs # Sunrise-RoleTime
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
   weight: 20
   startingGear: CaptainGear
   icon: "JobIconCaptain"
   requireAdminNotify: true
   joinNotifyCrew: true
   supervisors: job-supervisors-centcom
+  radioBold: true
   canBeAntag: false
   accessGroups:
   - AllAccess
@@ -31,6 +44,8 @@
   - !type:AddComponentSpecial
     components:
       - type: CommandStaff
+  speciesBlacklist:
+  - Vox
 
 - type: startingGear
   id: CaptainGear

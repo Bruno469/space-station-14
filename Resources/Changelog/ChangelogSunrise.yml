@@ -166,6 +166,7 @@ Entries:
     type: Tweak
   id: 15
   time: '2024-05-04T09:41:26.942566+00:00'
+<<<<<<< HEAD
 - author: SplikZerys
   changes:
   - message: "\u041D\u043E\u0432\u044B\u0435 \u0441\u043F\u0440\u0430\u0439\u0442\u044B\
@@ -478,3 +479,5 @@ Entries:
     type: Add
   id: 39
   time: '2024-06-10T17:12:10.931916+00:00'
+=======
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))

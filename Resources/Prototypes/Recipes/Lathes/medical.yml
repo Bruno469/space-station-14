@@ -134,7 +134,10 @@
 - type: latheRecipe
   id: Medkit
   result: Medkit
+<<<<<<< HEAD
   name: lathe-recipe-Medkit-name
+=======
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
   completetime: 2
   materials:
     Plastic: 300
@@ -142,7 +145,10 @@
 - type: latheRecipe
   id: MedkitBurn
   result: MedkitBurn
+<<<<<<< HEAD
   name: lathe-recipe-MedkitBurn-name
+=======
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
   completetime: 2
   materials:
     Plastic: 300
@@ -150,7 +156,10 @@
 - type: latheRecipe
   id: MedkitToxin
   result: MedkitToxin
+<<<<<<< HEAD
   name: lathe-recipe-MedkitToxin-name
+=======
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
   completetime: 2
   materials:
     Plastic: 300
@@ -158,7 +167,10 @@
 - type: latheRecipe
   id: MedkitO2
   result: MedkitO2
+<<<<<<< HEAD
   name: lathe-recipe-MedkitO2-name
+=======
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
   completetime: 2
   materials:
     Plastic: 300
@@ -166,7 +178,10 @@
 - type: latheRecipe
   id: MedkitBrute
   result: MedkitBrute
+<<<<<<< HEAD
   name: lathe-recipe-MedkitBrute-name
+=======
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
   completetime: 2
   materials:
     Plastic: 300
@@ -174,7 +189,10 @@
 - type: latheRecipe
   id: MedkitAdvanced
   result: MedkitAdvanced
+<<<<<<< HEAD
   name: lathe-recipe-MedkitAdvanced-name
+=======
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
   completetime: 2
   materials:
     Plastic: 300
@@ -182,7 +200,10 @@
 - type: latheRecipe
   id: MedkitRadiation
   result: MedkitRadiation
+<<<<<<< HEAD
   name: lathe-recipe-MedkitRadiation-name
+=======
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
   completetime: 2
   materials:
     Plastic: 300
@@ -190,7 +211,10 @@
 - type: latheRecipe
   id: MedkitCombat
   result: MedkitCombat
+<<<<<<< HEAD
   name: lathe-recipe-MedkitCombat-name
+=======
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
   completetime: 2
   materials:
     Plastic: 300

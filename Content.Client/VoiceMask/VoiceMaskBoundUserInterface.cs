@@ -26,6 +26,11 @@ public sealed class VoiceMaskBoundUserInterface : BoundUserInterface
 
         _window.OnNameChange += OnNameSelected;
         _window.OnVerbChange += verb => SendMessage(new VoiceMaskChangeVerbMessage(verb));
+<<<<<<< HEAD
+=======
+        _window.OnVoiceChange += voice => SendMessage(new VoiceMaskChangeVoiceMessage(voice)); // Sunrise-TTS
+        _window.OnClose += Close;
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
     }
 
     private void OnNameSelected(string name)
@@ -40,7 +45,7 @@ public sealed class VoiceMaskBoundUserInterface : BoundUserInterface
             return;
         }
 
-        _window.UpdateState(cast.Name, cast.Verb);
+        _window.UpdateState(cast.Name, cast.Voice, cast.Verb); // Sunrise-TTS
     }
 
     protected override void Dispose(bool disposing)

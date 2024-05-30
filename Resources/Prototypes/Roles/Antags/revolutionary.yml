@@ -5,9 +5,14 @@
   setPreference: true
   objective: roles-antag-rev-head-objective
   requirements:
+<<<<<<< HEAD
     - !type:OverallPlaytimeRequirement
       time: 36000 # 10h
   guides: [ Revolutionaries ]
+=======
+  - !type:OverallPlaytimeRequirement
+    time: 36000 # 10h # Sunrise-RoleTime
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
 
 - type: antag
   id: Rev

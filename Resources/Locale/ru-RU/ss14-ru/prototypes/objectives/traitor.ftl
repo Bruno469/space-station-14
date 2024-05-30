@@ -30,8 +30,11 @@ ent-HandTeleporterStealObjective = { ent-BaseRDStealObjective }
     .desc = { ent-BaseRDStealObjective.desc }
 ent-SecretDocumentsStealObjective = { ent-BaseTraitorStealObjective }
     .desc = { ent-BaseTraitorStealObjective.desc }
+<<<<<<< HEAD
 ent-MultiphaseEnergygunStealObjective = { ent-BaseTraitorStealObjective }
     .desc = { ent-BaseTraitorStealObjective.desc }
+=======
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
 ent-MagbootsStealObjective = { ent-BaseTraitorStealObjective }
     .desc = { ent-BaseTraitorStealObjective.desc }
 ent-ClipboardStealObjective = { ent-BaseTraitorStealObjective }

@@ -6,7 +6,7 @@
   requirements:
     - !type:DepartmentTimeRequirement
       department: Medical
-      time: 54000 # 15 hrs
+      time: 36000 #10 hrs Sunrise-RoleTime
       inverted: true # stop playing intern if you're good at med!
   startingGear: MedicalInternGear
   icon: "JobIconMedicalIntern"
@@ -29,6 +29,9 @@
     ears: ClothingHeadsetMedical
     belt: ClothingBeltMedicalFilled
     pocket2: BookMedicalReferenceBook
+<<<<<<< HEAD
   #storage:
     #back:
     #- Stuff
+=======
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))

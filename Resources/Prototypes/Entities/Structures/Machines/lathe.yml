@@ -295,7 +295,12 @@
     - LargeBeaker
     - Dropper
     - ClothingEyesGlassesChemical
+<<<<<<< HEAD
     - MaterialBSCrystal # Goobstation
+=======
+    - Nanopaste # Sunrise-edit
+    - HandheldRoboAnalyzer # Sunrise-edit
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
     dynamicRecipes:
       - PowerDrill
       - MiningDrill
@@ -461,6 +466,7 @@
     - ChemMasterMachineCircuitboard
     - CondenserMachineCircuitBoard
     - HotplateMachineCircuitboard
+    - PrinterDocMachineCircuitboard # Sunrise-Printer
     - UniformPrinterMachineCircuitboard
     - FloorGreenCircuit
     - FloorBlueCircuit
@@ -1149,6 +1155,17 @@
       - ClothingOuterWinterWardenUnarmored
       - ClothingOuterWinterQM
       - ClothingOuterWinterRD
+<<<<<<< HEAD
+=======
+      - ClothingNeckMantleCap
+      - ClothingNeckMantleCE
+      - ClothingNeckMantleCMO
+      - ClothingNeckMantleHOP
+      - ClothingNeckMantleHOS
+      - ClothingNeckMantleHOSShoulder
+      - ClothingNeckMantleRD
+      - ClothingNeckMantleQM
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
       - ClothingOuterWinterMusician
       - ClothingOuterWinterClown
       - ClothingOuterWinterMime

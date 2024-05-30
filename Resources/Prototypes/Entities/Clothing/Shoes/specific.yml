@@ -108,11 +108,17 @@
   - type: Clothing
     sprite: Clothing/Shoes/Specific/galoshes.rsi
   - type: NoSlip
+<<<<<<< HEAD
   - type: SlowedOverSlippery
     slowdownModifier: 0.7
   - type: SpeedModifierContactCapClothing
     maxContactSprintSlowdown: 0.7
     maxContactWalkSlowdown: 0.7
+=======
+  - type: ClothingSpeedModifier
+    walkModifier: 0.9
+    sprintModifier: 0.9
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
 
 - type: entity
   parent: [ClothingShoesBaseButcherable, BaseMajorContraband]

@@ -1,7 +1,11 @@
 {
   "version": 1,
   "license": "CC-BY-SA-3.0",
+<<<<<<< HEAD
   "copyright": "Taken from tgstation at commit https://github.com/tgstation/tgstation/commit/47f6d91b37609b940152de62befa931dba35adf0.",
+=======
+  "copyright": "Taken from tgstation at commit https://github.com/tgstation/tgstation/commit/47f6d91b37609b940152de62befa931dba35adf0",
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
   "size": {
     "x": 32,
     "y": 32

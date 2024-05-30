@@ -1,7 +1,11 @@
 {
   "version": 1,
   "license": "CC-BY-SA-3.0",
+<<<<<<< HEAD
   "copyright": "Taken from https://github.com/ParadiseSS13/Paradise",
+=======
+  "copyright": "Taken from skyrat-tg at https://github.com/Skyrat-SS13/Skyrat-tg/commit/31156a1fcd48d67a717e7b63c11513172b28eeb1",
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
   "size": {
     "x": 32,
     "y": 32

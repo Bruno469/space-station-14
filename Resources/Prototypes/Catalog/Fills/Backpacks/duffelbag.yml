@@ -40,7 +40,7 @@
   components:
   - type: StorageFill
     contents:
-      - id: WeaponShotgunBulldog
+      - id: WeaponShotgunBulldogBiocode # Sunrise-edit
       - id: MagazineShotgun
       - id: MagazineShotgun
       - id: MagazineShotgunBeanbag
@@ -54,7 +54,7 @@
   components:
   - type: StorageFill
     contents:
-      - id: WeaponSubMachineGunC20r
+      - id: WeaponSubMachineGunC20rBiocode # Sunrise-edit
       - id: MagazinePistolSubMachineGun
         amount: 2
 #     - id: SMGSuppressor
@@ -67,7 +67,7 @@
   components:
   - type: StorageFill
     contents:
-      - id: WeaponRevolverPythonAP
+      - id: WeaponRevolverPythonAPBiocode # Sunrise-edit
       - id: SpeedLoaderMagnumAP
         amount: 2
 
@@ -79,7 +79,7 @@
   components:
   - type: StorageFill
     contents:
-      - id: WeaponLightMachineGunL6
+      - id: WeaponLightMachineGunL6Biocode # Sunrise-edit
       - id: MagazineLightRifleBox
 
 - type: entity
@@ -90,7 +90,7 @@
   components:
   - type: StorageFill
     contents:
-      - id: WeaponLauncherChinaLake
+      - id: WeaponLauncherChinaLakeBiocode # Sunrise-edit
       - id: GrenadeBlast
         amount: 4
       - id: GrenadeFrag
@@ -104,7 +104,7 @@
   components:
   - type: StorageFill
     contents:
-      - id: WeaponRifleM90GrenadeLauncher
+      - id: WeaponRifleM90GrenadeLauncherBiocode # Sunrise-edit
       - id: MagazineRifle
         amount: 2
       - id: GrenadeBlast
@@ -248,7 +248,7 @@
   components:
   - type: StorageFill
     contents:
-      - id: ClothingOuterHardsuitSyndie
+      - id: ClothingOuterHardsuitSyndieBiocode # Sunrise-edit
       - id: ClothingMaskGasSyndicate
       - id: ClothingHandsGlovesCombat
       - id: DoubleEmergencyOxygenTankFilled
@@ -262,7 +262,7 @@
   components:
   - type: StorageFill
     contents:
-      - id: ClothingOuterHardsuitSyndieElite
+      - id: ClothingOuterHardsuitSyndieEliteBiocode # Sunrise-edit
       - id: ClothingMaskGasSyndicate
       - id: ClothingHandsGlovesCombat
       - id: DoubleEmergencyOxygenTankFilled
@@ -290,13 +290,48 @@
   - type: StorageFill
     contents:
       - id: SyringeRomerol
-      - id: WeaponRevolverPython
+      - id: WeaponRevolverPythonBiocode # Sunrise-edit
       - id: MagazineBoxMagnumIncendiary
       - id: PillAmbuzolPlus
       - id: PillAmbuzol
         amount: 3
 
 - type: entity
+<<<<<<< HEAD
+=======
+  parent: ClothingBackpackDuffelSyndicateBundle
+  id: ClothingBackpackDuffelSyndicateOperative
+  name: operative duffelbag
+  components:
+  - type: StorageFill
+    contents:
+      - id: BoxSurvivalSyndicate
+      - id: WeaponPistolViperBiocode # Sunrise-edit
+      - id: PinpointerSyndicateNuclear
+      - id: DeathAcidifierImplanter
+
+
+- type: entity
+  parent: ClothingBackpackDuffelSyndicateMedicalBundle
+  id: ClothingBackpackDuffelSyndicateOperativeMedic
+  name: operative medic duffelbag
+  description: A large duffel bag for holding extra medical supplies.
+  components:
+  - type: StorageFill
+    contents:
+      - id: SyndiHypo
+      - id: BoxSurvivalSyndicate
+      - id: SawAdvanced
+      - id: Cautery
+      - id: CombatKnife
+      - id: WeaponPistolViperBiocode # Sunrise-edit
+      - id: PinpointerSyndicateNuclear
+      - id: HandheldHealthAnalyzer
+      - id: CombatMedipen
+      - id: DeathAcidifierImplanter
+
+- type: entity
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
   parent: ClothingBackpackDuffelSyndicateMedicalBundle
   id: ClothingBackpackDuffelSyndicateMedicalBundleFilled
   name: medical bundle

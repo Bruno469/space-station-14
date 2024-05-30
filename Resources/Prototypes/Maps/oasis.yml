@@ -55,7 +55,7 @@
             SecurityOfficer: [ 8, 8 ]
             Detective: [ 1, 1 ]
             SecurityCadet: [ 4, 4 ]
-            Lawyer: [ 3, 3 ]
+            # Lawyer: [ 3, 3 ]
             #supply
             Quartermaster: [ 1, 1 ]
             SalvageSpecialist: [ 3, 3 ]
@@ -65,3 +65,8 @@
             Clown: [ 1, 1 ]
             Mime: [ 1, 1 ]
             Musician: [ 1, 1 ]
+<<<<<<< HEAD
+=======
+            # Sunrise-Roles
+            IAA: [ 1, 1 ]
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))

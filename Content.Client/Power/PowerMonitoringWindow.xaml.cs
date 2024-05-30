@@ -41,6 +41,36 @@ public sealed partial class PowerMonitoringWindow : FancyWindow
         IoCManager.InjectDependencies(this);
 
         _spriteSystem = _entManager.System<SpriteSystem>();
+<<<<<<< HEAD
+=======
+        _owner = owner;
+
+        // Pass owner to nav map
+        NavMap.Owner = _owner;
+
+        // Set nav map grid uid
+        var stationName = Loc.GetString("power-monitoring-window-unknown-location");
+
+        if (_entManager.TryGetComponent<TransformComponent>(owner, out var xform))
+        {
+            NavMap.MapUid = xform.GridUid;
+
+            // Assign station name
+            if (_entManager.TryGetComponent<MetaDataComponent>(xform.GridUid, out var stationMetaData))
+                stationName = stationMetaData.EntityName;
+
+            var msg = new FormattedMessage();
+            msg.AddMarkup(Loc.GetString("power-monitoring-window-station-name", ("stationName", stationName)));
+
+            StationName.SetMessage(msg);
+        }
+
+        else
+        {
+            StationName.SetMessage(stationName);
+            NavMap.Visible = false;
+        }
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
 
         // Set trackable entity selected action
         NavMap.TrackedEntitySelectedAction += SetTrackedEntityFromNavMap;

@@ -93,6 +93,7 @@
     price: 100
   - type: BlockWeather
 
+<<<<<<< HEAD
 - type: entity
   parent: Window
   id: TintedWindow
@@ -112,6 +113,8 @@
   - type: StaticPrice
     price: 70
 
+=======
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
 - type: entity
   id: WindowRCDResistant
   parent: Window
@@ -256,7 +259,7 @@
     state: state0
   - type: IconSmooth
     mode: Diagonal
-    key: windows
+    key: walls
     base: state
   - type: Icon
     sprite: Structures/Windows/window_diagonal.rsi

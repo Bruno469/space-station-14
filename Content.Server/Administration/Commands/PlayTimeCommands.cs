@@ -7,6 +7,7 @@ using System.Text.RegularExpressions;
 
 namespace Content.Server.Administration.Commands;
 
+<<<<<<< HEAD
 public sealed class PlayTimeCommandUtilities
 {
     private readonly static Dictionary<string, int> Units = new() {
@@ -91,6 +92,9 @@ public sealed class PlayTimeCommandUtilities
 }
 
 [AdminCommand(AdminFlags.Moderator)]
+=======
+[AdminCommand(AdminFlags.Host)]
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
 public sealed class PlayTimeAddOverallCommand : IConsoleCommand
 {
     [Dependency] private readonly IPlayerManager _playerManager = default!;
@@ -138,7 +142,11 @@ public sealed class PlayTimeAddOverallCommand : IConsoleCommand
     }
 }
 
+<<<<<<< HEAD
 [AdminCommand(AdminFlags.Moderator)]
+=======
+[AdminCommand(AdminFlags.Host)]
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
 public sealed class PlayTimeAddRoleCommand : IConsoleCommand
 {
     [Dependency] private readonly IPlayerManager _playerManager = default!;

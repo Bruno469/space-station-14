@@ -24,11 +24,20 @@
     solution: tank
   - type: ReagentTank
     tankType: Fuel
+<<<<<<< HEAD
   - type: DamageOnToolInteract
     tools: Welding
     weldingDamage:
       types:
         Heat: 10
+=======
+#  - type: DamageOnToolInteract
+#    tools:
+#    - Welding
+#    weldingDamage:
+#      types:
+#        Heat: 10
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
   - type: PacifismDangerousAttack
   - type: Explosive
     explosionType: Default
@@ -210,12 +219,12 @@
       sprite: Structures/Storage/tanks.rsi
       layers:
         - state: generictank-1
-        - state: watertank-2-1
+        - state: generictank-1-1
           map: ["enum.SolutionContainerLayers.Fill"]
           visible: false
     - type: Appearance
     - type: SolutionContainerVisuals
       maxFillLevels: 5
-      fillBaseName: watertank-2-
+      fillBaseName: generictank-1-
     - type: ExaminableSolution
       solution: tank

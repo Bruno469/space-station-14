@@ -26,6 +26,9 @@ ent-WeaponLauncherAdmemeMeteorLarge = пускатель метеоритов
 ent-WeaponLauncherAdmemeImmovableRodSlow = пускатель неподвижного жезла
     .desc = Стреляет неподвижными жезлами.
     .suffix = Адмемы
+<<<<<<< HEAD
 
 ent-WeaponLauncherRocketNT =  { ent-WeaponLauncherRocket }
     .desc = { ent-WeaponLauncherRocket.desc }
+=======
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))

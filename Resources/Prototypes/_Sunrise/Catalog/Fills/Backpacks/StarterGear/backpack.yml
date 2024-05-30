@@ -16,6 +16,7 @@
       contents:
         - id: BoxSurvivalMedical
         - id: RubberStampPsychologist
+<<<<<<< HEAD
 
 - type: entity
   noSpawn: true
@@ -64,3 +65,5 @@
     - id: WeaponSIAR52Biocode
     - id: MagazinePistolSubMachineGunSIAR52
       amount: 2
+=======
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))

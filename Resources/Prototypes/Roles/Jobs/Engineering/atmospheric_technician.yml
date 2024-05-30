@@ -6,7 +6,11 @@
   requirements:
     - !type:DepartmentTimeRequirement
       department: Engineering
+<<<<<<< HEAD
       time: 36000 # 15 hrs
+=======
+      time: 18000 #5 hrs # Sunrise-RoleTime
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
   startingGear: AtmosphericTechnicianGear
   icon: "JobIconAtmosphericTechnician"
   supervisors: job-supervisors-ce

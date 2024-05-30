@@ -1,4 +1,5 @@
 - type: loadoutGroup
+<<<<<<< HEAD
   id: Socks
   name: loadout-group-socks
   minLimit: 1
@@ -336,3 +337,19 @@
 =======
   - HeadHatCentcomcap
 >>>>>>> 07ef797344 (Кучка мелких изменений (#128))
+=======
+  id: Inventory
+  name: loadout-group-inventory
+  minLimit: 0
+  maxLimit: 5
+  loadouts: []
+
+- type: loadoutGroup
+  id: PsychologistBackpack
+  name: loadout-group-psychologist-backpack
+  loadouts:
+  - PsychologistBackpack
+  - PsychologistSatchel
+  - PsychologistDuffel
+
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))

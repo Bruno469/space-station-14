@@ -1,7 +1,11 @@
 {
   "version": 1,
   "license": "CC-BY-SA-3.0",
+<<<<<<< HEAD:Resources/Textures/_Goobstation/Clothing/OuterClothing/Armor/blueshield_jacket.rsi/meta.json
   "copyright": "Taken from tgstation at commit https://github.com/tgstation/tgstation/commit/3a72dd925f7d6aeec620fe83bc4f88a3d7e5f693, pants removed by BombasterDS",
+=======
+  "copyright": "Taken from tgstation at commit https://github.com/tgstation/tgstation/commit/46a92082e4dd599e233ebf280050fb5be0107da9",
+>>>>>>> 5775d4cdef (Merge sunrise build (#2)):Resources/Textures/Clothing/OuterClothing/WinterCoats/coatchem.rsi/meta.json
   "size": {
     "x": 32,
     "y": 32

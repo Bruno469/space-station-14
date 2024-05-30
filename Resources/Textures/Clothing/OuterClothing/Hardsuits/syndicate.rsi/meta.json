@@ -1,7 +1,11 @@
 {
   "version": 1,
   "license": "CC-BY-SA-3.0",
+<<<<<<< HEAD
   "copyright": "Taken from tgstation at commit https://github.com/tgstation/tgstation/commit/3b364b1cea497ccf414539719b6b79f39d42cb1b, equipped-OUTERCLOTHING-monkey made by Dutch-VanDerLinde, vox state made by Flareguy for SS14",
+=======
+  "copyright": "Created by discord:IAmRasputin#5242, reptilian made by kuro(388673708753027083), equipped-OUTERCLOTHING-monkey made by Dutch-VanDerLinde, vox state made by Flareguy for SS14",
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
   "size": {
     "x": 32,
     "y": 32
@@ -12,6 +16,10 @@
     },
     {
       "name": "equipped-OUTERCLOTHING",
+      "directions": 4
+    },
+    {
+      "name": "equipped-OUTERCLOTHING-reptilian",
       "directions": 4
     },
     {

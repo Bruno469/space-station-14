@@ -1,7 +1,11 @@
 {
   "version": 1,
   "license": "CC-BY-SA-3.0",
+<<<<<<< HEAD
   "copyright": "Drawn by Ubaser. Vox states made by Flareguy, modified from magboots.rsi, resprited by fazan_saverg (842350861123452948) on discord.",
+=======
+  "copyright": "Drawn by Ubaser, resprited by fazan_saverg (842350861123452948) on discord.",
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
   "size": {
     "x": 32,
     "y": 32
@@ -12,15 +16,23 @@
       "directions": 4
     },
     {
+      "name": "equipped-FEET-reptilian",
+      "directions": 4
+    },
+    {
       "name": "on-equipped-FEET",
       "directions": 4
     },
     {
+<<<<<<< HEAD
       "name": "equipped-FEET-vox",
       "directions": 4
     },
     {
       "name": "on-equipped-FEET-vox",
+=======
+      "name": "on-equipped-FEET-reptilian",
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
       "directions": 4
     },
     {

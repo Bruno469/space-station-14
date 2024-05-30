@@ -101,8 +101,8 @@
   description: View a solar control interface.
   components:
   - type: InstantAction
-    icon: { sprite: Structures/Machines/parts.rsi, state: box_0 }
-    iconOn: Structures/Machines/parts.rsi/box_2.png
+    icon: _Sunrise/Interface/AdminActions/solar.png
+    iconOn: _Sunrise/Interface/AdminActions/solar.png
     keywords: [ "AI", "console", "interface" ]
     priority: -10
     event: !type:ToggleIntrinsicUIEvent { key: enum.SolarControlConsoleUiKey.Key }
@@ -113,8 +113,13 @@
   description: View a communications interface.
   components:
   - type: InstantAction
+<<<<<<< HEAD
     icon: { sprite: Interface/Actions/actions_ai.rsi, state: comms_console }
     iconOn: Interface/Actions/actions_ai.rsi/comms_console.png
+=======
+    icon: _Sunrise/Interface/AdminActions/communications.png
+    iconOn: _Sunrise/Interface/AdminActions/communications.png
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
     keywords: [ "AI", "console", "interface" ]
     priority: -4
     event: !type:ToggleIntrinsicUIEvent { key: enum.CommunicationsConsoleUiKey.Key }
@@ -125,8 +130,13 @@
   description: View a mass scanner interface.
   components:
   - type: InstantAction
+<<<<<<< HEAD
     icon: { sprite: Interface/Actions/actions_ai.rsi, state: mass_scanner }
     iconOn: Interface/Actions/actions_ai.rsi/mass_scanner.png
+=======
+    icon: _Sunrise/Interface/AdminActions/radar.png
+    iconOn: _Sunrise/Interface/AdminActions/radar.png
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
     keywords: [ "AI", "console", "interface" ]
     priority: -7
     event: !type:ToggleIntrinsicUIEvent { key: enum.RadarConsoleUiKey.Key }
@@ -137,8 +147,8 @@
   description: View a cargo ordering interface.
   components:
   - type: InstantAction
-    icon: { sprite: Structures/Machines/parts.rsi, state: box_0 }
-    iconOn: Structures/Machines/parts.rsi/box_2.png
+    icon: _Sunrise/Interface/AdminActions/cargo.png
+    iconOn: _Sunrise/Interface/AdminActions/cargo.png
     keywords: [ "AI", "console", "interface" ]
     priority: -10
     event: !type:ToggleIntrinsicUIEvent { key: enum.CargoConsoleUiKey.Orders }
@@ -149,8 +159,13 @@
   description: View a crew monitoring interface.
   components:
   - type: InstantAction
+<<<<<<< HEAD
     icon: { sprite: Interface/Actions/actions_ai.rsi, state: crew_monitor }
     iconOn: Interface/Actions/actions_ai.rsi/crew_monitor.png
+=======
+    icon: _Sunrise/Interface/AdminActions/monitoring.png
+    iconOn: _Sunrise/Interface/AdminActions/monitoring.png
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
     keywords: [ "AI", "console", "interface" ]
     priority: -9
     event: !type:ToggleIntrinsicUIEvent { key: enum.CrewMonitoringUIKey.Key }
@@ -161,8 +176,13 @@
   description: View a station records Interface.
   components:
   - type: InstantAction
+<<<<<<< HEAD
     icon: { sprite: Interface/Actions/actions_ai.rsi, state: station_records }
     iconOn: Interface/Actions/actions_ai.rsi/station_records.png
+=======
+    icon: _Sunrise/Interface/AdminActions/records.png
+    iconOn: _Sunrise/Interface/AdminActions/records.png
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
     keywords: [ "AI", "console", "interface" ]
     priority: -8
     event: !type:ToggleIntrinsicUIEvent { key: enum.GeneralStationRecordConsoleKey.Key }

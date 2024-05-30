@@ -22,6 +22,12 @@
   - type: Damageable
     damageContainer: Biological
   - type: NoSlip
+<<<<<<< HEAD
+=======
+  - type: Actions
+  - type: TTS
+    voice: HermaeusMora
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
   - type: Eye
     drawFov: false
     visMask:
@@ -68,9 +74,9 @@
     - StolenEssence
   - type: RandomMetadata
     nameSegments:
-    - The
+#    - The
     - RevenantType
-    - of
+#    - of
     - RevenantAdjective
     - RevenantTheme
   - type: Speech

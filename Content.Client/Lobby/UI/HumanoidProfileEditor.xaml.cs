@@ -9,6 +9,7 @@ using Content.Client.Players.PlayTimeTracking;
 using Content.Client.Sprite;
 using Content.Client.Stylesheets;
 using Content.Client.UserInterface.Systems.Guidebook;
+using Content.Shared._Sunrise.SunriseCCVars;
 using Content.Shared.CCVar;
 using Content.Shared.Clothing;
 using Content.Shared.GameTicking;
@@ -222,6 +223,18 @@ namespace Content.Client.Lobby.UI
             };
 
             #endregion Gender
+
+            // Sunrise-TTS-Start
+            #region Voice
+
+            if (configurationManager.GetCVar(SunriseCCVars.TTSEnabled))
+            {
+                TTSContainer.Visible = true;
+                InitializeVoice();
+            }
+
+            #endregion
+            // Sunrise-TTS-End
 
             RefreshSpecies();
 
@@ -768,6 +781,7 @@ namespace Content.Client.Lobby.UI
             UpdateEyePickers();
             UpdateSaveButton();
             UpdateMarkings();
+            UpdateTTSVoicesControls(); // Sunrise-TTS
             UpdateHairPickers();
             UpdateCMarkingsHair();
             UpdateCMarkingsFacialHair();
@@ -1141,6 +1155,25 @@ namespace Content.Client.Lobby.UI
                         Profile = Profile.WithCharacterAppearance(Profile.Appearance.WithSkinColor(color));
                         break;
                     }
+<<<<<<< HEAD
+=======
+
+                    var color = SkinColor.ClosestVoxColor(_rgbSkinColorSelector.Color);
+
+                    Markings.CurrentSkinColor = color;
+                    Profile = Profile.WithCharacterAppearance(Profile.Appearance.WithSkinColor(color));
+                    break;
+                }
+                // Sunrise-start
+                case HumanoidSkinColor.None:
+                {
+                    Skin.Visible = false;
+                    RgbSkinColorContainer.Visible = false;
+                    _rgbSkinColorSelector.Color = Color.Transparent;
+                    break;
+                }
+                // Sunrise-end
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
             }
 
             ReloadProfilePreview();
@@ -1203,6 +1236,7 @@ namespace Content.Client.Lobby.UI
             }
 
             UpdateGenderControls();
+            UpdateTTSVoicesControls(); // Sunrise-TTS
             Markings.SetSex(newSex);
             ReloadPreview();
         }
@@ -1212,6 +1246,14 @@ namespace Content.Client.Lobby.UI
             Profile = Profile?.WithGender(newGender);
             ReloadPreview();
         }
+
+        // Sunrise-TTS-Start
+        private void SetVoice(string newVoice)
+        {
+            Profile = Profile?.WithVoice(newVoice);
+            IsDirty = true;
+        }
+        // Sunrise-TTS-End
 
         private void SetSpecies(string newSpecies)
         {
@@ -1384,6 +1426,23 @@ namespace Content.Client.Lobby.UI
 
                         break;
                     }
+<<<<<<< HEAD
+=======
+
+                    _rgbSkinColorSelector.Color = SkinColor.ClosestVoxColor(Profile.Appearance.SkinColor);
+
+                    break;
+                }
+                // Sunrise-start
+                case HumanoidSkinColor.None:
+                {
+                    Skin.Visible = false;
+                    RgbSkinColorContainer.Visible = false;
+                    _rgbSkinColorSelector.Color = Color.Transparent;
+                    break;
+                }
+                // Sunrise-end
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
             }
 
         }

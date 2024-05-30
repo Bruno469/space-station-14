@@ -3,6 +3,12 @@
   name: job-name-mime
   description: job-description-mime
   playTimeTracker: JobMime
+<<<<<<< HEAD
+=======
+  requirements:
+  - !type:OverallPlaytimeRequirement
+      time: 18000 #5 hrs # Sunrise-RoleTime
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
   startingGear: MimeGear
   icon: "JobIconMime"
   supervisors: job-supervisors-hop

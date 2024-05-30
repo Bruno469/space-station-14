@@ -1,7 +1,11 @@
 {
   "version": 1,
   "license": "CC-BY-SA-3.0",
+<<<<<<< HEAD:Resources/Textures/Clothing/OuterClothing/Suits/witchrobe.rsi/meta.json
   "copyright": "Taken from tgstation at commit https://github.com/tgstation/tgstation/pull/36039/commits/b3bd70ae925ecbe7c625f70c4c3d09d3ed2ed32a . Inhands were made for SS14 and available under the same license",
+=======
+  "copyright": "Taken from tgstation at commit https://github.com/tgstation/tgstation/commit/46a92082e4dd599e233ebf280050fb5be0107da9",
+>>>>>>> 5775d4cdef (Merge sunrise build (#2)):Resources/Textures/Clothing/OuterClothing/WinterCoats/coatcentcom.rsi/meta.json
   "size": {
     "x": 32,
     "y": 32

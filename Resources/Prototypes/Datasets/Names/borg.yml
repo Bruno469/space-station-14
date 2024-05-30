@@ -2,24 +2,25 @@
 - type: dataset
   id: names_borg
   values:
-  - Bob
-  - Joe
-  - Beep
-  - Beep II
-  - Boombox
-  - Tour Guide-otron
-  - Taffy
-  - Boop
-  - Boop II
-  - Buzz
-  - Buzz II
-  - Toaster
-  - Head of Robots
-  - EVA 1
-  - Mr. Robist
-  - Junk
+  - Боб
+  - Джо
+  - Бип
+  - Бип II
+  - Бумбокс
+  - Тур Гайд-о-трон
+  - Тэффи
+  - Буп
+  - Буп II
+  - Базз
+  - Базз II
+  - Тостер
+  - Глава роботов
+  - ЕВА 1
+  - Мистер Робист
+  - Жестянка
   - R2-PO
   - C-3-D2
+<<<<<<< HEAD
   - Robby
   - Robobot
   - Fixer
@@ -41,3 +42,24 @@
   - Twin
   - Ski-Botty
   - Hawk-2A
+=======
+  - Робби
+  - Робобот
+  - Чинила
+  - Сонни
+  - Автобот
+  - Уитли
+  - Келлер
+  - Ксенос
+  - Эхо
+  - Вектор
+  - Б-0-РГ
+  - Мегабайт
+  - Зад-Бот
+  - Десептиборг
+  - Ле Борг
+  - Биперс
+  - Милаха-Бот
+  - Самоделкин
+  - Близняшка
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))

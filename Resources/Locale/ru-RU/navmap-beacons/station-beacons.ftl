@@ -63,4 +63,7 @@ station-beacon-tools = Хранилище инструментов
 station-beacon-disposals = Мусоросброс
 station-beacon-cryosleep = Криосон
 station-beacon-escape-pod = Спасательная капсула
+<<<<<<< HEAD
 station-beacon-blueshield = Синий щит
+=======
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))

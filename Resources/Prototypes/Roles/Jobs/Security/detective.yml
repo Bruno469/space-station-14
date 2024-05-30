@@ -4,9 +4,15 @@
   description: job-description-detective
   playTimeTracker: JobDetective
   requirements:
+<<<<<<< HEAD
     - !type:DepartmentTimeRequirement
       department: Security
       time: 54000 # 15 hours
+=======
+  - !type:DepartmentTimeRequirement
+    department: Security
+    time: 36000 #10 hrs # Sunrise-RoleTime
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
   startingGear: DetectiveGear
   icon: "JobIconDetective"
   supervisors: job-supervisors-hos
@@ -22,6 +28,8 @@
   special:
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ]
+  speciesBlacklist:
+  - Vox
 
 - type: startingGear
   id: DetectiveGear

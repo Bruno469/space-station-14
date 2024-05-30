@@ -86,12 +86,21 @@ namespace Content.Server.Database
             }
 
             return $"""
+<<<<<<< HEAD
                    {loc.GetString("ban-banned-1")}
                    {loc.GetString("ban-banned-2", ("adminName", GetUsername(BanningAdmin.ToString())))}
                    {loc.GetString("ban-banned-3", ("reason", Reason))}
                    {expires}
                    {loc.GetString("ban-banned-4")}
                    """;
+=======
+                {loc.GetString("ban-banned-1")}
+                {loc.GetString("ban-banned-2", ("id", Id.ToString() ?? ""))}
+                {loc.GetString("ban-banned-3", ("reason", Reason))}
+                {expires}
+                {loc.GetString("ban-banned-4")}
+                """;
+>>>>>>> 5775d4cdef (Merge sunrise build (#2))
         }
 
         static string GetUsername(string? userId)
