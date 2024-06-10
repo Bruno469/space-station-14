@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 - type: listing
   id: UplinkSyndieNVD
   name: uplink-syndie-nvd-name
@@ -8,12 +9,15 @@
     Telecrystal: 4
   categories:
   - UplinkWearables
+=======
+>>>>>>> 49ebe77e49 (Новое оружие ядерных оперативников (#55))
 
 # For the Buldog
 - type: listing
   id: UplinkMagazineShotgun
   name: uplink-magazine-shotgun-name
   description: uplink-magazine-shotgun-desc
+<<<<<<< HEAD
   icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Magazine/Shotgun/m12.rsi, state: pellets }
   productEntity: MagazineShotgun
   cost:
@@ -34,6 +38,12 @@
   productEntity: MagazineShotgunIncendiary
   cost:
     Telecrystal: 3
+=======
+  icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Magazine/Shotgun/m12.rsi, state: pellets-icon }
+  productEntity: MagazineShotgun
+  cost:
+    Telecrystal: 4
+>>>>>>> 49ebe77e49 (Новое оружие ядерных оперативников (#55))
   categories:
   - UplinkAmmo
   conditions:
@@ -60,6 +70,7 @@
       components:
       - SurplusBundle
 
+<<<<<<< HEAD
 # For the SIAR52
 - type: listing
   id: UplinkMagazinePistolSubMachineGunSIAR52
@@ -71,6 +82,8 @@
     Telecrystal: 3
   categories:
   - UplinkAmmo
+=======
+>>>>>>> 49ebe77e49 (Новое оружие ядерных оперативников (#55))
 
 # For the China-Lake
 - type: listing
@@ -80,7 +93,11 @@
   icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Explosives/explosives.rsi, state: frag }
   productEntity: GrenadeFrag
   cost:
+<<<<<<< HEAD
     Telecrystal: 2
+=======
+    Telecrystal: 3
+>>>>>>> 49ebe77e49 (Новое оружие ядерных оперативников (#55))
   categories:
   - UplinkAmmo
   conditions:
@@ -96,7 +113,11 @@
   icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Explosives/explosives.rsi, state: blast }
   productEntity: GrenadeBlast
   cost:
+<<<<<<< HEAD
     Telecrystal: 2
+=======
+    Telecrystal: 3
+>>>>>>> 49ebe77e49 (Новое оружие ядерных оперативников (#55))
   categories:
   - UplinkAmmo
   conditions:
@@ -106,6 +127,7 @@
       - SurplusBundle
 
 - type: listing
+<<<<<<< HEAD
   id: UplinkGrenadeEMP
   name: uplink-grenade-emp-name
   description: uplink-grenade-emp-desc
@@ -137,11 +159,19 @@
   productEntity: ClothingBackpackSyndie
   cost:
     Telecrystal: 4
+=======
+  id: UplinkClothingBackpackSyndie
+  name: Рюкзак Синдиката
+  productEntity: ClothingBackpackSyndie
+  cost:
+    Telecrystal: 5
+>>>>>>> 49ebe77e49 (Новое оружие ядерных оперативников (#55))
   categories:
   - UplinkWearables
 
 - type: listing
   id: UplinkClothingBackpackSyndieAJ100Filled
+<<<<<<< HEAD
   name: uplink-clothing-backpack-syndie-aj100-name
   productEntity: ClothingBackpackSyndieAJ100Filled
   description: uplink-clothing-backpack-syndie-aj100-desc
@@ -223,6 +253,12 @@
   name: uplink-weapon-syndie-laser-gun-name
   productEntity: WeaponSyndieLaserGunBiocode
   icon: { sprite: _Sunrise/Objects/Weapons/Guns/Battery/syndielasergun.rsi, state: icon }
+=======
+  name: Набор ПП AJ-100
+  productEntity: ClothingBackpackSyndieAJ100Filled
+  description: Включает в себя пистолет-пулемёт AJ-100 и два магазина патрон.
+  icon: { sprite: _Sunrise/SyndieGuns/AJ-100.rsi, state: icon }
+>>>>>>> 49ebe77e49 (Новое оружие ядерных оперативников (#55))
   cost:
     Telecrystal: 25
   categories:
@@ -234,6 +270,7 @@
       - NukeOpsUplink
 
 - type: listing
+<<<<<<< HEAD
   id: UplinkWeaponBauer127
   name: uplink-weapon-bauer-127-name
   productEntity: ClothingBackpackDuffelSyndicateFilledBauer
@@ -241,6 +278,76 @@
   icon: { sprite: _Sunrise/Objects/Weapons/Guns/Snipers/bauer127/big.rsi, state: icon }
   cost:
     Telecrystal: 18
+=======
+  id: UplinkWeaponSyndieLaserPistol
+  name: SAM-300
+  productEntity: WeaponSyndieLaserPistolBiocode
+  icon: { sprite: _Sunrise/SyndieGuns/syndielaserpistol.rsi, state: icon }
+  cost:
+    Telecrystal: 20
+  categories:
+  - UplinkWeaponry
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - NukeOpsUplink
+
+- type: listing
+  id: UplinkClothingBackpackSyndieDL6902Filled
+  name: Набор DL6902
+  productEntity: ClothingBackpackSyndieDL6902Filled
+  description: Включает в себя пулемёт DL6902 и один магазин патрон.
+  icon: { sprite: _Sunrise/SyndieGuns/DL6902.rsi, state: icon }
+  cost:
+    Telecrystal: 50
+  categories:
+  - UplinkWeaponry
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - NukeOpsUplink
+
+- type: listing
+  id: UplinkClothingBackpackSyndieSIAR52Filled
+  name: Набор SIAR-52
+  productEntity: ClothingBackpackSyndieSIAR52Filled
+  description: Включает в себя пулемёт SIAR-52 и два магазина патрон.
+  icon: { sprite: _Sunrise/SyndieGuns/IAR-52.rsi, state: icon }
+  cost:
+    Telecrystal: 25
+  categories:
+  - UplinkWeaponry
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - NukeOpsUplink
+
+- type: listing
+  id: UplinkWeaponLaserMinigun
+  name: UVL-21 «Виверна»
+  productEntity: WeaponLaserMinigunBiocode
+  icon: { sprite: _Sunrise/SyndieGuns/laserminigun.rsi, state: icon }
+  cost:
+    Telecrystal: 50
+  categories:
+  - UplinkWeaponry
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - NukeOpsUplink
+
+- type: listing
+  id: UplinkWeaponSyndieLaserGun
+  name: S-13 «Чёрная мамба»
+  productEntity: WeaponSyndieLaserGunBiocode
+  icon: { sprite: _Sunrise/SyndieGuns/syndielasergun.rsi, state: icon }
+  cost:
+    Telecrystal: 40
+>>>>>>> 49ebe77e49 (Новое оружие ядерных оперативников (#55))
   categories:
   - UplinkWeaponry
   conditions:
@@ -284,6 +391,7 @@
     whitelist:
       tags:
       - NukeOpsUplink
+<<<<<<< HEAD
 
 # Objective-specific
 - type: listing
@@ -661,3 +769,5 @@
     whitelist:
       tags:
       - NukeOpsUplink
+=======
+>>>>>>> 49ebe77e49 (Новое оружие ядерных оперативников (#55))

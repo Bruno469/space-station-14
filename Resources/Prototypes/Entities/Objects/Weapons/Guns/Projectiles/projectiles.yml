@@ -985,11 +985,21 @@
     tags:
       - HideContextMenu
 
+<<<<<<< HEAD
 - type: entity
   name: laser bolt 
   id: BulletLaser
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
+=======
+# SUNRISE
+
+- type: entity
+  name : syndie plasma
+  id: BulletSyndiPlasma
+  parent: BaseBullet
+  noSpawn: true
+>>>>>>> 49ebe77e49 (Новое оружие ядерных оперативников (#55))
   components:
   - type: Reflective
     reflective:
@@ -1000,9 +1010,15 @@
       params:
         volume: 5
   - type: Sprite
+<<<<<<< HEAD
     sprite: Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
     layers:
     - state: heavylaser
+=======
+    sprite: _Sunrise/SyndieGuns/red_projectile.rsi
+    layers:
+    - state: omnilaser
+>>>>>>> 49ebe77e49 (Новое оружие ядерных оперативников (#55))
       shader: unshaded
   - type: Physics
   - type: Fixtures
@@ -1017,6 +1033,7 @@
         - BulletImpassable
       fly-by: *flybyfixture
   - type: Ammo
+<<<<<<< HEAD
   - type: Projectile
     impactEffect: BulletImpactEffectOrangeDisabler
     damage:
@@ -1088,6 +1105,35 @@
     energy: 0.5
 >>>>>>> 07ef797344 (Кучка мелких изменений (#128))
 =======
+=======
+  - type: StaminaDamageOnCollide
+    damage: 1
+  - type: Projectile
+    impactEffect: BulletImpactEffectSyndiPlasma
+    damage:
+      types:
+        Heat: 12
+    soundHit:
+      collection: WeakHit
+
+- type: entity
+  name : syndie plasma
+  id: BulletSyndiPlasma2
+  parent: BaseBullet
+  noSpawn: true
+  components:
+  - type: Reflective
+    reflective:
+    - Energy
+  - type: FlyBySound
+    sound:
+      collection: EnergyMiss
+      params:
+        volume: 5
+  - type: Sprite
+    sprite: _Sunrise/SyndieGuns/red_projectile.rsi
+    layers:
+>>>>>>> 49ebe77e49 (Новое оружие ядерных оперативников (#55))
     - state: omnilaser
       shader: unshaded
   - type: Physics
@@ -1156,6 +1202,7 @@
     soundHit:
       collection: WeakHit
     soundForce: true
+<<<<<<< HEAD
 
 # Sunrise-AEG
 - type: entity
@@ -1198,3 +1245,5 @@
     soundHit:
       collection: WeakHit
 >>>>>>> 4fd33aa375 (Продвинутое энергетическое оружие (#59))
+=======
+>>>>>>> 49ebe77e49 (Новое оружие ядерных оперативников (#55))

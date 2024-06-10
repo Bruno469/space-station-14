@@ -118,6 +118,11 @@
     - Syndicate
     alertText: Данное оружие биокодировано. Вы не можете его использовать.
 
+<<<<<<< HEAD
+=======
+# SUNRISE
+
+>>>>>>> 49ebe77e49 (Новое оружие ядерных оперативников (#55))
 - type: entity
   parent: WeaponSIAR52
   id: WeaponSIAR52Biocode

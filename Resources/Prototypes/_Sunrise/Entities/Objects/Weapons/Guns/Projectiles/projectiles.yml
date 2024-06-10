@@ -2,7 +2,11 @@
   id: BulletAcid2
   name: acid spit
   parent: BaseBullet
+<<<<<<< HEAD
   categories: [ HideSpawnMenu ]
+=======
+  noSpawn: true
+>>>>>>> 49ebe77e49 (Новое оружие ядерных оперативников (#55))
   components:
     - type: Projectile
       damage:
@@ -14,6 +18,7 @@
         - state: xeno_toxic
     - type: Ammo
       muzzleFlash: null
+<<<<<<< HEAD
 
 # Sunrise-ION
 - type: entity
@@ -206,3 +211,5 @@
 >>>>>>> fa59b6542d (Возврат нелетального оружия (#162))
 =======
 >>>>>>> 07ef797344 (Кучка мелких изменений (#128))
+=======
+>>>>>>> 49ebe77e49 (Новое оружие ядерных оперативников (#55))
