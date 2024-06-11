@@ -47,7 +47,11 @@
     eyes: ClothingEyesHudSyndicate
     ears: ClothingHeadsetAltSyndicate
     gloves: ClothingHandsGlovesCombat
+<<<<<<< HEAD
     #outerClothing: ClothingOuterHardsuitSyndie # goobstation - duke nukies
+=======
+    outerClothing: ClothingOuterHardsuitSyndieBiocode # Sunrise-Edit
+>>>>>>> 7709d7a6a8 (Фикс биокода скафов)
     shoes: ClothingShoesBootsCombatFilled
     id: SyndiPDA
     pocket2: PlushieCarp
@@ -71,8 +75,12 @@
   parent: SyndicateOperativeGearFullNoUplink
   equipment:
     neck: SyndicateWhistle
+<<<<<<< HEAD
     pocket2: BaseUplinkRadio350TC # goobstation - im rich :fire::fire:
     #outerClothing: ClothingOuterHardsuitSyndieCommander # goobstation - duke nukies
+=======
+    outerClothing: ClothingOuterHardsuitSyndieCommanderBiocode # Sunrise-Edit
+>>>>>>> 7709d7a6a8 (Фикс биокода скафов)
   inhand:
   - NukeOpsDeclarationOfWar
 
@@ -82,7 +90,11 @@
   parent: SyndicateOperativeGearFull
   equipment:
     eyes: ClothingEyesHudSyndicateAgent
+<<<<<<< HEAD
     #outerClothing: ClothingOuterHardsuitSyndieMedic # goobstation - duke nukies
+=======
+    outerClothing: ClothingOuterHardsuitSyndieMedicBiocode # Sunrise-Edit
+>>>>>>> 7709d7a6a8 (Фикс биокода скафов)
     shoes: ClothingShoesBootsMagSyndie
     id: SyndiAgentPDA
     belt: ClothingBeltMilitaryWebbingMedFilled

@@ -259,8 +259,12 @@
   - type: StorageFill
     contents:
         - id: OxygenTankFilled
+<<<<<<< HEAD
         - id: NitrogenTankFilled
         - id: ClothingOuterHardsuitSyndie
+=======
+        - id: ClothingOuterHardsuitSyndieBiocode # Sunrise-Edit
+>>>>>>> 7709d7a6a8 (Фикс биокода скафов)
         - id: ClothingShoesBootsMagSyndie
         - id: ClothingMaskGasSyndicate
 
