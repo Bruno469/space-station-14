@@ -78,9 +78,12 @@
   - type: Battery
     maxCharge: 1000
     startingCharge: 1000
+<<<<<<< HEAD
   - type: BatterySelfRecharger
     autoRecharge: true
     autoRechargeRate: 35
+=======
+>>>>>>> 4fd33aa375 (Продвинутое энергетическое оружие (#59))
   - type: ProjectileBatteryAmmoProvider
     proto: BulletDisabler
     fireCost: 50
@@ -251,7 +254,10 @@
     fireRate: 3
     availableModes:
       - SemiAuto
+<<<<<<< HEAD
       - FullAuto
+=======
+>>>>>>> 4fd33aa375 (Продвинутое энергетическое оружие (#59))
   - type: Battery
     maxCharge: 2000
     startingCharge: 2000
@@ -263,6 +269,7 @@
     steps: 5
     zeroVisible: true
   - type: Appearance
+<<<<<<< HEAD
 
 - type: entity
   parent: BaseWeaponBattery
@@ -689,3 +696,5 @@
     startingCharge: 7500
 =======
 >>>>>>> 07ef797344 (Кучка мелких изменений (#128))
+=======
+>>>>>>> 4fd33aa375 (Продвинутое энергетическое оружие (#59))

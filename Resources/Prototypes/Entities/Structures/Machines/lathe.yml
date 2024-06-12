@@ -228,6 +228,7 @@
       - RiotShield
       - SpeedLoaderMagnum
       - SpeedLoaderMagnumEmpty
+<<<<<<< HEAD
   - type: BlueprintReceiver
     whitelist:
       tags:
@@ -240,6 +241,12 @@
   - type: EmptyOnMachineDeconstruct
     containers:
     - blueprint
+=======
+      - WeaponEnergyGun       # Sunrise - Energy Gun
+      - WeaponEnergyGunMini   # Sunrise - Miniature Energy Gun
+      - WeaponEnergyGunPistol # Sunrise - PDW-9 Energy Pistol
+      - WeaponGunLaserCarbineAutomatic # Sunrise - IK-60 Laser Carbine
+>>>>>>> 4fd33aa375 (Продвинутое энергетическое оружие (#59))
 
 - type: entity
   id: AutolatheHyperConvection

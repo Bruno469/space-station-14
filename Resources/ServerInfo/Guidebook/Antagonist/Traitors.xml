@@ -93,8 +93,29 @@
   </Box>
   - Butchering Ian, the [color=#9fed58]Head of Personnel[/color]'s dog, and obtaining the [bold]corgi meat[/bold].
   <Box>
+<<<<<<< HEAD
     <GuideEntityEmbed Entity="MobCorgiIan" Caption=""/>
     <GuideEntityEmbed Entity="FoodMeatCorgi" Caption=""/>
+=======
+    <GuideEntityEmbed Entity="BookSecretDocuments" Caption="Секретные Документы"/>
+  </Box>
+  - Украсть у Главы Службы Безопасноти [color=#a4885c]X-01 Мультифазный энергетический карабин[/color].
+  <Box>
+    <GuideEntityEmbed Entity="BookSecretDocuments" Caption="Секретные Документы"/>
+  </Box>
+  - Украсть у Старшего Инженера [color=#a4885c]Продвинутные Магнитные Сапоги[/color].
+  <Box>
+    <GuideEntityEmbed Entity="ClothingShoesBootsMagAdv" Caption="Продвинутые Магнитные Сапоги"/>
+  </Box>
+  - Украсть [color=#a4885c]Диск Ядерной Авторизации[/color].
+  <Box>
+    <GuideEntityEmbed Entity="NukeDisk" Caption="Диск Ядерной Авторизации"/>
+  </Box>
+  - Украсть [color=#a4885c]Мясо корги[/color].
+  <Box>
+  <GuideEntityEmbed Entity="MobCorgiIan" Caption="Корги"/>
+  <GuideEntityEmbed Entity="FoodMeatCorgi" Caption="Мясо корги"/>
+>>>>>>> 4fd33aa375 (Продвинутое энергетическое оружие (#59))
   </Box>
 
 </Document>

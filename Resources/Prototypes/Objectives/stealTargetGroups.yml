@@ -29,6 +29,23 @@
     state: icon
 
 - type: stealTargetGroup
+<<<<<<< HEAD
+=======
+  id: BookSecretDocuments
+  name: "emergency security orders"
+  sprite:
+    sprite: Objects/Misc/bureaucracy.rsi
+    state: folder-sec-doc
+
+- type: stealTargetGroup  # Sunrise-AEG
+  id: WeaponEnergyGunMultiphase
+  name: x-01 multiphase energy gun
+  sprite:
+    sprite: _Sunrise/Objects/Weapons/Guns/Battery/multiphase_energygun.rsi
+    state: base
+
+- type: stealTargetGroup
+>>>>>>> 4fd33aa375 (Продвинутое энергетическое оружие (#59))
   id: ClothingShoesBootsMagAdv
   name: steal-target-groups-clothing-shoes-boots-mag-adv
   sprite:

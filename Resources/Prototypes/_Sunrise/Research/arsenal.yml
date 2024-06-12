@@ -36,6 +36,7 @@
   cost: 12500
   recipeUnlocks:
   - WeaponGunLaserCarbineAutomatic
+<<<<<<< HEAD
   
 - type: technology
   id: NonlethalAmmunition
@@ -56,3 +57,5 @@
   - MagazineBoxMagnumRubber
   - MagazineBoxLightRifleRubber
   - MagazineBoxRifleRubber
+=======
+>>>>>>> 4fd33aa375 (Продвинутое энергетическое оружие (#59))

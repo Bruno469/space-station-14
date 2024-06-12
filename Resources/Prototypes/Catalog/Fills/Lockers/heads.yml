@@ -317,6 +317,7 @@
   suffix: Filled, Hardsuit
   parent: LockerResearchDirector
   components:
+<<<<<<< HEAD
   - type: EntityTableContainerFill
     containers:
       entity_storage: !type:AllSelector
@@ -325,6 +326,34 @@
           tableId: LockerFillResearchDirectorNoHardsuit
         - !type:NestedSelector
           tableId: FillResearchDirectorHardsuit
+=======
+  - type: StorageFill
+    contents:
+      - id: WeaponDisabler
+      - id: ClothingHeadHatCapHoS
+        prob: 0.5
+      - id: ClothingOuterCoatHoSTrench
+      - id: ClothingMaskNeckGaiter
+      - id: ClothingOuterCoatHoSGreatcoat
+      - id: ClothingOuterHardsuitSecurityRed
+      - id: ClothingMaskGasSwat
+#      - id: ClothingShoeSlippersDuck: Need more space for style
+#        prob: 0.2
+      - id: WeaponEnergyGunMultiphase  # Sunrise-AEG
+      - id: ClothingBeltSecurityFilled
+      - id: ClothingHeadsetAltSecurity
+      - id: ClothingEyesGlassesSecurity
+      - id: ClothingShoesBootsJack
+      - id: CigarGoldCase
+        prob: 0.50
+      - id: DoorRemoteSecurity
+      - id: RubberStampHos
+      - id: SecurityTechFabCircuitboard
+      - id: JetpackSecurityFilled
+      - id: BoxEncryptionKeySecurity
+      - id: HoloprojectorSecurity
+      - id: BookSecretDocuments
+>>>>>>> 4fd33aa375 (Продвинутое энергетическое оружие (#59))
 
 # No hardsuit table
 - type: entityTable
@@ -366,6 +395,7 @@
   suffix: Filled
   parent: LockerHeadOfSecurity
   components:
+<<<<<<< HEAD
   - type: EntityTableContainerFill
     containers:
       entity_storage: !type:NestedSelector
@@ -385,6 +415,29 @@
           tableId: LockerFillHeadOfSecurityNoHardsuit
         - !type:NestedSelector
           tableId: FillHeadOfSecurityHardsuit
+=======
+  - type: StorageFill
+    contents:
+      - id: WeaponDisabler
+      - id: ClothingHeadHatCapHoS
+        prob: 0.5
+      - id: ClothingOuterCoatHoSTrench
+      - id: ClothingMaskNeckGaiter
+      - id: ClothingOuterCoatHoSGreatcoat
+      - id: ClothingBeltSecurityFilled
+      - id: ClothingHeadsetAltSecurity
+      - id: ClothingEyesGlassesSecurity
+      - id: ClothingShoesBootsJack
+      - id: CigarGoldCase
+        prob: 0.50
+      - id: DoorRemoteSecurity
+      - id: RubberStampHos
+      - id: SecurityTechFabCircuitboard
+      - id: BoxEncryptionKeySecurity
+      - id: HoloprojectorSecurity
+      - id: BookSecretDocuments
+      - id: WeaponEnergyGunMultiphase  # Sunrise-AEG
+>>>>>>> 4fd33aa375 (Продвинутое энергетическое оружие (#59))
 
 - type: entity
   id: LockerFreezerVaultFilled
