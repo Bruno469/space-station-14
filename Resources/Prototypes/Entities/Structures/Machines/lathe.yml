@@ -229,6 +229,7 @@
       - SpeedLoaderMagnum
       - SpeedLoaderMagnumEmpty
 <<<<<<< HEAD
+<<<<<<< HEAD
   - type: BlueprintReceiver
     whitelist:
       tags:
@@ -242,10 +243,15 @@
     containers:
     - blueprint
 =======
+=======
+>>>>>>> 4fd33aa375 (Продвинутое энергетическое оружие (#59))
       - WeaponEnergyGun       # Sunrise - Energy Gun
       - WeaponEnergyGunMini   # Sunrise - Miniature Energy Gun
       - WeaponEnergyGunPistol # Sunrise - PDW-9 Energy Pistol
       - WeaponGunLaserCarbineAutomatic # Sunrise - IK-60 Laser Carbine
+<<<<<<< HEAD
+>>>>>>> 4fd33aa375 (Продвинутое энергетическое оружие (#59))
+=======
 >>>>>>> 4fd33aa375 (Продвинутое энергетическое оружие (#59))
 
 - type: entity

@@ -70,8 +70,14 @@ research-technology-advanced-spray = Продвинутые спреи
 research-technology-quantum-fiber-weaving = Плетение квантового волокна
 research-technology-bluespace-cargo-transport = Блюспейс-транспортировка грузов
 <<<<<<< HEAD
+<<<<<<< HEAD
 research-technology-energy-gun = Энергетическое вооружение
 research-technology-energy-gun-advance = Продвинутое энергетическое вооружение
 research-technology-advance-laser = Военное энергетическое вооружение
 =======
 >>>>>>> 5775d4cdef (Merge sunrise build (#2))
+=======
+research-technology-energy-gun = Энергетическое вооружение
+research-technology-energy-gun-advance = Продвинутое энергетическое вооружение
+research-technology-advance-laser = Военное энергетическое вооружение
+>>>>>>> 4fd33aa375 (Продвинутое энергетическое оружие (#59))
