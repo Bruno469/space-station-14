@@ -20,7 +20,11 @@
   name: EMP impulse
   parent: BaseBulletTrigger
   id: BulletEMP
+<<<<<<< HEAD
   categories: [ HideSpawnMenu ]
+=======
+  noSpawn: true
+>>>>>>> 07ef797344 (Кучка мелких изменений (#128))
   components:
   - type: Sprite
     sprite: Effects/emp.rsi
@@ -36,6 +40,7 @@
     radius: 3.5
     color: blue
     energy: 0.5
+<<<<<<< HEAD
 
 # Sunrise-RUBBER
 - type: entity
@@ -199,3 +204,5 @@
 >>>>>>> 5d5bd2cd4b (Обновление ролей (#552))
 =======
 >>>>>>> fa59b6542d (Возврат нелетального оружия (#162))
+=======
+>>>>>>> 07ef797344 (Кучка мелких изменений (#128))

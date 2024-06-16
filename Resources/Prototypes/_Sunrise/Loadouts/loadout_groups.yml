@@ -133,6 +133,7 @@
   - BlueShieldJumpskirt
 
 - type: loadoutGroup
+<<<<<<< HEAD
   id: BarberJumpsuit
   name: loadout-group-barber-jumpsuit
   loadouts:
@@ -140,13 +141,18 @@
   - BarberJumpskirt
 
 - type: loadoutGroup
+=======
+>>>>>>> 07ef797344 (Кучка мелких изменений (#128))
   id: SecurityTrinkets
   name: loadout-group-security-trinkets
   minLimit: 0
   maxLimit: 3
   loadouts:
   - SecurityBodycam
+<<<<<<< HEAD
   - SecurityPepperspray
+=======
+>>>>>>> 07ef797344 (Кучка мелких изменений (#128))
   - SecurityWhistle
   - SecurityRadioHandheld
   - SecurityTourniquet
@@ -154,6 +160,7 @@
   - SecurityHoloprojector
 
 - type: loadoutGroup
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
   id: SecurityBodycam
@@ -168,6 +175,12 @@
   name: loadout-group-corporate-law
   minLimit: 0
   loadouts:
+=======
+  id: CorporateLaw
+  name: loadout-group-corporate-law
+  minLimit: 0
+  loadouts:
+>>>>>>> 07ef797344 (Кучка мелких изменений (#128))
   - CorporateLaw
 
 - type: loadoutGroup
@@ -184,6 +197,7 @@
   name: loadout-group-centcomm-operator-head-hat
   loadouts:
   - HeadHatBeretCentcomNaval
+<<<<<<< HEAD
   - HeadHatCentcomcap
 
 - type: loadoutGroup
@@ -319,3 +333,6 @@
   loadouts:
   - AdjutantCoat
 
+=======
+  - HeadHatCentcomcap
+>>>>>>> 07ef797344 (Кучка мелких изменений (#128))

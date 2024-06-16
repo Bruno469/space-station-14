@@ -286,7 +286,11 @@
       path: /Audio/Weapons/Guns/Empty/empty.ogg
     selectedMode: SemiAuto
     fireRate: 0.6
+<<<<<<< HEAD
     availableModes:
+=======
+    avaliableModes:
+>>>>>>> 07ef797344 (Кучка мелких изменений (#128))
     - SemiAuto
   - type: Battery
     maxCharge: 4000
@@ -300,6 +304,7 @@
     zeroVisible: true
   - type: Appearance
   - type: EmpImmune
+<<<<<<< HEAD
 
 # Sunrise Colonial Marines
 
@@ -682,3 +687,5 @@
   - type: Battery
     maxCharge: 7500
     startingCharge: 7500
+=======
+>>>>>>> 07ef797344 (Кучка мелких изменений (#128))

@@ -12,9 +12,13 @@
     ClothingHeadHatSecsoft: 3
     ClothingHeadBandRed: 3
 <<<<<<< HEAD
+<<<<<<< HEAD
     ClothingMaskNeckGaiterRed: 3
 =======
 >>>>>>> 498b64c13b (Накипевшие изменения (#156))
+=======
+    HandheldCamera: 3  # Sunrise-bodycam
+>>>>>>> 07ef797344 (Кучка мелких изменений (#128))
     ClothingHandsGlovesColorBlack: 3
     ClothingHandsGlovesFingerless: 3
     ClothingUniformJumpskirtSec: 3
@@ -29,6 +33,11 @@
     ClothingEyesBlindfold: 1
     ClothingShoesBootsCombat: 1
     ClothingShoesBootsWinterSec: 2
+<<<<<<< HEAD
     ClothingHeadHelmetJustice: 1
   contrabandInventory:
     ClothingMaskClownSecurity: 1
+=======
+    ClothingShoesBootsCowboyBlack: 1
+    ClothingHeadHatCowboyBlack: 1
+>>>>>>> 07ef797344 (Кучка мелких изменений (#128))

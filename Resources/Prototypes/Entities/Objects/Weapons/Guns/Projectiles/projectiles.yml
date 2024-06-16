@@ -1021,6 +1021,7 @@
     impactEffect: BulletImpactEffectOrangeDisabler
     damage:
       types:
+<<<<<<< HEAD
         Heat: 13
 
 - type: entity
@@ -1056,3 +1057,32 @@
     count: 3 #bit stronger than a disabler if you hit your shots you goober, still not a 2 hit stun though
     spread: 9 
     
+=======
+        Heat: 20 # Slightly more damage than the 17heat from the Captain's Hitscan lasgun
+    soundHit:
+      collection: WeakHit
+
+# Sunrise-NT
+- type: entity
+  id: BulletRocketNT
+  name: rocket
+  parent: BaseBulletTrigger
+  noSpawn: true
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    layers:
+    - state: frag
+  - type: ExplodeOnTrigger
+  - type: Explosive
+    explosionType: Default
+    maxIntensity: 30
+    intensitySlope: 6
+    totalIntensity: 120
+    maxTileBreak: 2147483647
+    tileBreakScale: 0
+  - type: PointLight
+    radius: 3.5
+    color: orange
+    energy: 0.5
+>>>>>>> 07ef797344 (Кучка мелких изменений (#128))

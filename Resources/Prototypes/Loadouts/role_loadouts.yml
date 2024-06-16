@@ -334,6 +334,7 @@
 - type: roleLoadout
   id: JobHeadOfSecurity
   groups:
+  - SecurityTrinkets  # Sunrise
   - HeadofSecurityHead
   - HeadofSecurityNeck
   - HeadofSecurityJumpsuit
@@ -341,7 +342,10 @@
   - SecurityBelt
   - HeadofSecurityOuterClothing
   - SecurityShoes
+<<<<<<< HEAD
   - SurvivalSecurity
+=======
+>>>>>>> 07ef797344 (Кучка мелких изменений (#128))
   - Trinkets
   - SecurityStar
   - GroupSpeciesBreathToolSecurity
@@ -349,13 +353,17 @@
 - type: roleLoadout
   id: JobWarden
   groups:
+  - SecurityTrinkets  # Sunrise
   - WardenHead
   - WardenJumpsuit
   - SecurityBackpack
   - SecurityBelt
   - WardenOuterClothing
   - SecurityShoes
+<<<<<<< HEAD
   - SurvivalSecurity
+=======
+>>>>>>> 07ef797344 (Кучка мелких изменений (#128))
   - Trinkets
   - SecurityStar
   - GroupSpeciesBreathToolSecurity
@@ -363,6 +371,7 @@
 - type: roleLoadout
   id: JobSecurityOfficer
   groups:
+  - SecurityTrinkets  # Sunrise
   - SecurityHead
   - SecurityJumpsuit
   - SecurityBackpack
@@ -370,7 +379,10 @@
   - SecurityShoes
   - SecurityPDA
   - SecurityBelt
+<<<<<<< HEAD
   - SurvivalSecurity
+=======
+>>>>>>> 07ef797344 (Кучка мелких изменений (#128))
   - Trinkets
   - SecurityStar
   - GroupSpeciesBreathToolSecurity
@@ -378,7 +390,11 @@
 - type: roleLoadout
   id: JobDetective
   groups:
+<<<<<<< HEAD
   - GroupTankHarness
+=======
+  - SecurityTrinkets  # Sunrise
+>>>>>>> 07ef797344 (Кучка мелких изменений (#128))
   - DetectiveHead
   - DetectiveNeck
   - DetectiveJumpsuit
@@ -393,10 +409,14 @@
 - type: roleLoadout
   id: JobSecurityCadet
   groups:
+  - SecurityTrinkets  # Sunrise
   - SecurityCadetJumpsuit
   - SecurityBackpack
+<<<<<<< HEAD
   - SurvivalSecurity
   - SecurityOuterClothing # Goobstation - Why not.
+=======
+>>>>>>> 07ef797344 (Кучка мелких изменений (#128))
   - Trinkets
   - GroupSpeciesBreathToolSecurity
 

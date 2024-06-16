@@ -1,11 +1,22 @@
+<<<<<<< HEAD
 - type: loadoutEffectGroup
   id: SeniorJanitorial
+=======
+# Sunrise-start
+- type: loadoutEffectGroup
+  id: MaidJanitor
+>>>>>>> 07ef797344 (Кучка мелких изменений (#128))
   effects:
   - !type:JobRequirementLoadoutEffect
     requirement:
       !type:RoleTimeRequirement
       role: JobJanitor
+<<<<<<< HEAD
       time: 187200 #52 hrs (1 hour per week for 1 year)
+=======
+      time: 72000 # 20 hrs
+# Sunrise-end
+>>>>>>> 07ef797344 (Кучка мелких изменений (#128))
 
 # Head
 - type: loadout
@@ -25,8 +36,23 @@
     jumpsuit: ClothingUniformJumpskirtJanitor
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Sunrise-start
+=======
+# Sunrise-start
+- type: loadout
+  id: MaidJumpskirt
+  equipment: MaidJumpskirt
+
+- type: startingGear
+  id: MaidJumpskirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtJanimaid
+# Sunrise-end
+
+# Gloves
+>>>>>>> 07ef797344 (Кучка мелких изменений (#128))
 - type: loadout
   id: MaidJumpskirt
   equipment: MaidJumpskirt
