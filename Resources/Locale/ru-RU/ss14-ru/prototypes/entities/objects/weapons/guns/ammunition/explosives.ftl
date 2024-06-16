@@ -26,8 +26,14 @@ ent-CannonBallGlassshot = стеклянная картечь
     .suffix = Пираты
     .desc = { ent-BaseCannonBall.desc }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 ent-CartridgeRocketNT = выстрел NT-69
     .desc = { ent-CartridgeRocket.desc }
 =======
 >>>>>>> 5775d4cdef (Merge sunrise build (#2))
+=======
+
+ent-CartridgeRocketNT = выстрел NT-69
+    .desc = { ent-CartridgeRocket.desc }
+>>>>>>> 07ef797344 (Кучка мелких изменений (#128))

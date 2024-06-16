@@ -19,6 +19,9 @@
     - type: Ammo
       muzzleFlash: null
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 07ef797344 (Кучка мелких изменений (#128))
 
 # Sunrise-ION
 - type: entity
@@ -26,7 +29,11 @@
   parent: BaseBulletTrigger
   id: BulletEMP
 <<<<<<< HEAD
+<<<<<<< HEAD
   categories: [ HideSpawnMenu ]
+=======
+  noSpawn: true
+>>>>>>> 07ef797344 (Кучка мелких изменений (#128))
 =======
   noSpawn: true
 >>>>>>> 07ef797344 (Кучка мелких изменений (#128))
@@ -45,6 +52,7 @@
     radius: 3.5
     color: blue
     energy: 0.5
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 # Sunrise-RUBBER
@@ -219,3 +227,5 @@
 >>>>>>> 49ebe77e49 (Новое оружие ядерных оперативников (#55))
 =======
 >>>>>>> 5d5bd2cd4b (Обновление ролей (#552))
+=======
+>>>>>>> 07ef797344 (Кучка мелких изменений (#128))

@@ -343,7 +343,10 @@
   - HeadofSecurityOuterClothing
   - SecurityShoes
 <<<<<<< HEAD
+<<<<<<< HEAD
   - SurvivalSecurity
+=======
+>>>>>>> 07ef797344 (Кучка мелких изменений (#128))
 =======
 >>>>>>> 07ef797344 (Кучка мелких изменений (#128))
   - Trinkets
@@ -361,7 +364,10 @@
   - WardenOuterClothing
   - SecurityShoes
 <<<<<<< HEAD
+<<<<<<< HEAD
   - SurvivalSecurity
+=======
+>>>>>>> 07ef797344 (Кучка мелких изменений (#128))
 =======
 >>>>>>> 07ef797344 (Кучка мелких изменений (#128))
   - Trinkets
@@ -380,7 +386,10 @@
   - SecurityPDA
   - SecurityBelt
 <<<<<<< HEAD
+<<<<<<< HEAD
   - SurvivalSecurity
+=======
+>>>>>>> 07ef797344 (Кучка мелких изменений (#128))
 =======
 >>>>>>> 07ef797344 (Кучка мелких изменений (#128))
   - Trinkets
@@ -391,7 +400,11 @@
   id: JobDetective
   groups:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - GroupTankHarness
+=======
+  - SecurityTrinkets  # Sunrise
+>>>>>>> 07ef797344 (Кучка мелких изменений (#128))
 =======
   - SecurityTrinkets  # Sunrise
 >>>>>>> 07ef797344 (Кучка мелких изменений (#128))
@@ -413,8 +426,11 @@
   - SecurityCadetJumpsuit
   - SecurityBackpack
 <<<<<<< HEAD
+<<<<<<< HEAD
   - SurvivalSecurity
   - SecurityOuterClothing # Goobstation - Why not.
+=======
+>>>>>>> 07ef797344 (Кучка мелких изменений (#128))
 =======
 >>>>>>> 07ef797344 (Кучка мелких изменений (#128))
   - Trinkets

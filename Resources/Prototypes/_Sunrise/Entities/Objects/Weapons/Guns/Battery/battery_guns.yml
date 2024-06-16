@@ -255,9 +255,13 @@
     availableModes:
       - SemiAuto
 <<<<<<< HEAD
+<<<<<<< HEAD
       - FullAuto
 =======
 >>>>>>> 4fd33aa375 (Продвинутое энергетическое оружие (#59))
+=======
+      - FullAuto
+>>>>>>> 07ef797344 (Кучка мелких изменений (#128))
   - type: Battery
     maxCharge: 2000
     startingCharge: 2000
@@ -270,6 +274,9 @@
     zeroVisible: true
   - type: Appearance
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 07ef797344 (Кучка мелких изменений (#128))
 
 - type: entity
   parent: BaseWeaponBattery
@@ -294,7 +301,11 @@
     selectedMode: SemiAuto
     fireRate: 0.6
 <<<<<<< HEAD
+<<<<<<< HEAD
     availableModes:
+=======
+    avaliableModes:
+>>>>>>> 07ef797344 (Кучка мелких изменений (#128))
 =======
     avaliableModes:
 >>>>>>> 07ef797344 (Кучка мелких изменений (#128))
@@ -311,6 +322,7 @@
     zeroVisible: true
   - type: Appearance
   - type: EmpImmune
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 # Sunrise Colonial Marines
@@ -698,3 +710,5 @@
 >>>>>>> 07ef797344 (Кучка мелких изменений (#128))
 =======
 >>>>>>> 4fd33aa375 (Продвинутое энергетическое оружие (#59))
+=======
+>>>>>>> 07ef797344 (Кучка мелких изменений (#128))

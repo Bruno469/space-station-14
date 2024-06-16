@@ -19,6 +19,7 @@
   - type: StaticPrice
     price: 20
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 # Shells that used for friendship and duster
 
@@ -120,5 +121,7 @@
   - type: SpentAmmoVisuals
     state: frag
     suffix: false
+=======
+>>>>>>> 07ef797344 (Кучка мелких изменений (#128))
 =======
 >>>>>>> 07ef797344 (Кучка мелких изменений (#128))

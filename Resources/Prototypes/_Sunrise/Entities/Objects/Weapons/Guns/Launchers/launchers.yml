@@ -32,6 +32,7 @@
     zeroVisible: false
   - type: Appearance
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 - type: entity
@@ -114,3 +115,5 @@
     delay: 0.5
   - type: GunRequiresWield
 >>>>>>> 5c5d97f282 (Мусор в текстурках (#287))
+=======
+>>>>>>> 07ef797344 (Кучка мелких изменений (#128))

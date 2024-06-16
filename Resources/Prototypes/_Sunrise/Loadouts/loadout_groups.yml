@@ -135,6 +135,7 @@
 
 - type: loadoutGroup
 <<<<<<< HEAD
+<<<<<<< HEAD
   id: BarberJumpsuit
   name: loadout-group-barber-jumpsuit
   loadouts:
@@ -144,6 +145,8 @@
 - type: loadoutGroup
 =======
 >>>>>>> 07ef797344 (Кучка мелких изменений (#128))
+=======
+>>>>>>> 07ef797344 (Кучка мелких изменений (#128))
   id: SecurityTrinkets
   name: loadout-group-security-trinkets
   minLimit: 0
@@ -151,7 +154,10 @@
   loadouts:
   - SecurityBodycam
 <<<<<<< HEAD
+<<<<<<< HEAD
   - SecurityPepperspray
+=======
+>>>>>>> 07ef797344 (Кучка мелких изменений (#128))
 =======
 >>>>>>> 07ef797344 (Кучка мелких изменений (#128))
   - SecurityWhistle
@@ -161,6 +167,7 @@
   - SecurityHoloprojector
 
 - type: loadoutGroup
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -176,6 +183,12 @@
   name: loadout-group-corporate-law
   minLimit: 0
   loadouts:
+=======
+  id: CorporateLaw
+  name: loadout-group-corporate-law
+  minLimit: 0
+  loadouts:
+>>>>>>> 07ef797344 (Кучка мелких изменений (#128))
 =======
   id: CorporateLaw
   name: loadout-group-corporate-law
@@ -198,6 +211,7 @@
   name: loadout-group-centcomm-operator-head-hat
   loadouts:
   - HeadHatBeretCentcomNaval
+<<<<<<< HEAD
 <<<<<<< HEAD
   - HeadHatCentcomcap
 
@@ -356,3 +370,6 @@
 >>>>>>> 5775d4cdef (Merge sunrise build (#2))
 =======
 >>>>>>> 5d5bd2cd4b (Обновление ролей (#552))
+=======
+  - HeadHatCentcomcap
+>>>>>>> 07ef797344 (Кучка мелких изменений (#128))

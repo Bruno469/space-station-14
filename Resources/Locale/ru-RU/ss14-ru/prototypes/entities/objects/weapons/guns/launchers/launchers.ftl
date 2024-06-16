@@ -27,8 +27,14 @@ ent-WeaponLauncherAdmemeImmovableRodSlow = пускатель неподвижн
     .desc = Стреляет неподвижными жезлами.
     .suffix = Адмемы
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 ent-WeaponLauncherRocketNT =  { ent-WeaponLauncherRocket }
     .desc = { ent-WeaponLauncherRocket.desc }
 =======
 >>>>>>> 5775d4cdef (Merge sunrise build (#2))
+=======
+
+ent-WeaponLauncherRocketNT =  { ent-WeaponLauncherRocket }
+    .desc = { ent-WeaponLauncherRocket.desc }
+>>>>>>> 07ef797344 (Кучка мелких изменений (#128))

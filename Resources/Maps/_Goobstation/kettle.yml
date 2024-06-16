@@ -75227,6 +75227,9 @@ entities:
     - type: Transform
       pos: -10.5,-72.5
       parent: 8364
+<<<<<<< HEAD:Resources/Maps/_Goobstation/kettle.yml
+>>>>>>> 07ef797344 (Кучка мелких изменений (#128)):Resources/Maps/_Sunrise/Station/box.yml
+=======
 >>>>>>> 07ef797344 (Кучка мелких изменений (#128)):Resources/Maps/_Sunrise/Station/box.yml
 - proto: CrateEngineeringCableBulk
   entities:
@@ -131728,6 +131731,7 @@ entities:
       parent: 82
     - type: ApcPowerReceiver
       powerLoad: 0
+<<<<<<< HEAD:Resources/Maps/_Goobstation/kettle.yml
   - uid: 21712
     components:
     - type: Transform
@@ -131754,6 +131758,8 @@ entities:
 <<<<<<< HEAD:Resources/Maps/_Goobstation/kettle.yml
   - uid: 21715
 =======
+=======
+>>>>>>> 07ef797344 (Кучка мелких изменений (#128)):Resources/Maps/_Sunrise/Station/box.yml
   - uid: 21268
     components:
     - type: Transform

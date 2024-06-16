@@ -222,6 +222,19 @@
     availableModes:
     - SemiAuto
   - type: EmpImmune  # Sunrise-EMP
+<<<<<<< HEAD
+=======
+  - type: HitscanBatteryAmmoProvider
+    proto: RedLaser
+    fireCost: 62.5
+
+- type: entity
+  name: practice laser rifle
+  parent: WeaponLaserCarbine
+  id: WeaponLaserCarbinePractice
+  description: This modified laser rifle fires nearly harmless beams in the 40-watt range, for target practice.
+  components:
+>>>>>>> 07ef797344 (Кучка мелких изменений (#128))
   - type: HitscanBatteryAmmoProvider
     proto: RedLaserPractice
     fireCost: 62.5
