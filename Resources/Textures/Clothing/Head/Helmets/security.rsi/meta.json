@@ -15,10 +15,13 @@
       "directions": 4
     },
     {
+<<<<<<< HEAD
       "name": "equipped-HELMET-vox",
       "directions": 4
     },
     {
+=======
+>>>>>>> 7a811c6c39 (фиксы YAMLLinter)
       "name": "inhand-left",
       "directions": 4
     },

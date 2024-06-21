@@ -79,6 +79,10 @@
         - !type:DoActsBehavior
           acts: [ "Destruction" ]
     - type: Label
+<<<<<<< HEAD
+=======
+      currentLabel: кувшин # Russian-Localization
+>>>>>>> 7a811c6c39 (фиксы YAMLLinter)
     - type: Tag
       tags:
       - ChemDispensable

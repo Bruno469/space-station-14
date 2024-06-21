@@ -154,6 +154,16 @@
   - SecurityHoloprojector
 
 - type: loadoutGroup
+<<<<<<< HEAD
+=======
+  id: SecurityBodycam
+  name: loadout-group-bodycam
+  minLimit: 0
+  loadouts:
+  - SecurityBodycam
+
+- type: loadoutGroup
+>>>>>>> 7a811c6c39 (фиксы YAMLLinter)
   id: CorporateLaw
   name: loadout-group-corporate-law
   minLimit: 0

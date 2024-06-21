@@ -25,8 +25,16 @@
     - BaseStationSiliconLawCrewsimov
     - BaseStationAllEventsEligible
     - BaseStationNanotrasen
+<<<<<<< HEAD
     - BaseStationMail # Nyano component, required for station mail to function
   categories: [ HideSpawnMenu ]
+=======
+    # Sunrise-Start
+    - BaseStationTransitHub
+    - BaseStationDontSelling
+    # Sunrise-End
+  noSpawn: true
+>>>>>>> 7a811c6c39 (фиксы YAMLLinter)
   components:
     - type: Transform
 
@@ -36,7 +44,18 @@
     - BaseStation
     - BaseStationAlertLevels
     - BaseStationNanotrasen
+<<<<<<< HEAD
   categories: [ HideSpawnMenu ]
+=======
+    - BaseStationRecords
+    - BaseStationJobsSpawning
+    # Sunrise-Start
+    - BaseCentCommShuttles
+    - BaseStationImmortal
+    - BaseStationDontSelling
+    # Sunrise-End
+  noSpawn: true
+>>>>>>> 7a811c6c39 (фиксы YAMLLinter)
   components:
     - type: Transform
 
