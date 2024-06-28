@@ -2,6 +2,7 @@
   id: LobbyMusic
   files:
     - /Audio/Lobby/space_asshole.ogg
+<<<<<<< HEAD
     # Goobstation - Custom lobby music
     - /Audio/Lobby/skubstep.ogg
     - /Audio/Lobby/sneedsfeedandseed.ogg
@@ -13,3 +14,10 @@
     - /Audio/Lobby/skubstub.ogg
     - /Audio/Lobby/space_radiation.ogg
     - /Audio/Lobby/redsun.ogg
+=======
+    - /Audio/Lobby/endless_space.ogg
+    - /Audio/_Sunrise/Music/peace_in_the_lags.ogg  # Sunrise-Music
+    - /Audio/_Sunrise/Music/The_first_day_on_orbit.ogg  # Sunrise-Music
+    - /Audio/_Sunrise/Music/TO.ogg  # Sunrise-Music
+    - /Audio/_Sunrise/Music/3D_is_just_a_measurement.ogg  # Sunrise-Music
+>>>>>>> 498b64c13b (Накипевшие изменения (#156))

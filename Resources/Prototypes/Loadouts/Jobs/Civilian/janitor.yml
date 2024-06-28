@@ -24,6 +24,23 @@
   equipment:
     jumpsuit: ClothingUniformJumpskirtJanitor
 
+<<<<<<< HEAD
+=======
+# Sunrise-start
+- type: loadout
+  id: MaidJumpskirt
+  equipment: MaidJumpskirt
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: MaidJanitor
+
+- type: startingGear
+  id: MaidJumpskirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtElegantMaid
+# Sunrise-end
+
+>>>>>>> 498b64c13b (Накипевшие изменения (#156))
 # Gloves
 - type: loadout
   id: JanitorRubberGloves

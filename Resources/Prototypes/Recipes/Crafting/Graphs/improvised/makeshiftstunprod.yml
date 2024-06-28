@@ -9,7 +9,11 @@
             - material: MetalRod
               amount: 1
             - tag: PowerCellSmall
+<<<<<<< HEAD
               name: power cell small
+=======
+              name: батарею маленькой ёмкости  # Sunrise-recipes
+>>>>>>> 498b64c13b (Накипевшие изменения (#156))
               icon:
                 sprite: Objects/Power/power_cells.rsi
                 state: small
@@ -18,13 +22,17 @@
                 sprite: Objects/Misc/cablecuffs.rsi
                 state: cuff
                 color: red
-              name: cuffs
+              name: наручники  # Sunrise-recipes
             - tag: Igniter
+<<<<<<< HEAD
               name: igniter
+=======
+              name: воспламенитель  # Sunrise-recipes
+>>>>>>> 498b64c13b (Накипевшие изменения (#156))
               icon:
                 sprite: Objects/Devices/igniter.rsi
                 state: icon
               doAfter: 15
     - node: msstunprod
       entity: Stunprod
-      
+
