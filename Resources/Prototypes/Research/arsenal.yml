@@ -61,6 +61,16 @@
   - BoxShellTranquilizer
   - BoxBeanbag
   - WeaponDisabler
+  # Sunrise-Start
+  - CartridgePistolRubber
+  - CartridgeMagnumRubber
+  - CartridgeLightRifleRubber
+  - CartridgeRifleRubber
+  - MagazineBoxPistolRubber
+  - MagazineBoxMagnumRubber
+  - MagazineBoxLightRifleRubber
+  - MagazineBoxRifleRubber
+  # Sunrise-End
 
 - type: technology
   id: UraniumMunitions

@@ -123,6 +123,7 @@
   materials:
     Steel: 350
     Plastic: 600
+<<<<<<< HEAD
 
 - type: latheRecipe
   id: MagazineM16A4
@@ -455,3 +456,5 @@
   materials:
     Steel: 3000
     Plastic: 3000
+=======
+>>>>>>> fb1754b8e9 (фиксы линтера)
