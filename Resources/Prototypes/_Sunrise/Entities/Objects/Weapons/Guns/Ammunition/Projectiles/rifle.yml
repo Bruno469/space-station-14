@@ -2,12 +2,17 @@
   id: BulletRifleRubber
   name: bullet (0.20 rifle rubber)
   parent: BaseBulletRubber
+<<<<<<< HEAD
   categories: [ HideSpawnMenu ]
+=======
+  noSpawn: true
+>>>>>>> fa59b6542d (Возврат нелетального оружия (#162))
   components:
   - type: Projectile
     damage:
       types:
         Blunt: 1
+<<<<<<< HEAD
 
 - type: entity
   categories: [ HideSpawnMenu ]
@@ -28,3 +33,5 @@
     maxTileBreak: 0
     tileBreakScale: 0
     canCreateVacuum: false
+=======
+>>>>>>> fa59b6542d (Возврат нелетального оружия (#162))

@@ -38,7 +38,11 @@
     head: ClothingHeadHatBeretSecurity
     id: SeniorOfficerPDA
     ears: ClothingHeadsetSecurity
+<<<<<<< HEAD
     pocket1: WeaponPistolG22NonLethal
   storage:
     back:
     - WeaponDisablerSMG
+=======
+    pocket1: WeaponPistolMk58Nonlethal
+>>>>>>> fa59b6542d (Возврат нелетального оружия (#162))

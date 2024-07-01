@@ -1,5 +1,9 @@
 - type: entity
+<<<<<<< HEAD
   id: MagazineCaselessRifleRubber
+=======
+  id: MagazinePistolCaselessRifleRubber
+>>>>>>> fa59b6542d (Возврат нелетального оружия (#162))
   name: "pistol magazine (.25 caseless rubber)"
   parent: BaseMagazinePistolCaselessRifle
   components:
@@ -16,4 +20,8 @@
     magState: mag
     steps: 6
     zeroVisible: false
+<<<<<<< HEAD
   - type: Appearance
+=======
+  - type: Appearance
+>>>>>>> fa59b6542d (Возврат нелетального оружия (#162))

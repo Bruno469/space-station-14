@@ -78,7 +78,11 @@
   materials:
     Plastic: 10
     Steel: 5
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> fa59b6542d (Возврат нелетального оружия (#162))
 - type: latheRecipe
   id: MagazineBoxPistolRubber
   result: MagazineBoxPistolRubber
@@ -87,7 +91,11 @@
   materials:
     Steel: 350
     Plastic: 300
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> fa59b6542d (Возврат нелетального оружия (#162))
 - type: latheRecipe
   id: MagazineBoxMagnumRubber
   result: MagazineBoxMagnumRubber
@@ -96,7 +104,11 @@
   materials:
     Steel: 350
     Plastic: 300
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> fa59b6542d (Возврат нелетального оружия (#162))
 - type: latheRecipe
   id: MagazineBoxRifleRubber
   result: MagazineBoxRifleRubber
@@ -105,7 +117,11 @@
   materials:
     Steel: 350
     Plastic: 600
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> fa59b6542d (Возврат нелетального оружия (#162))
 - type: latheRecipe
   id: MagazineBoxLightRifleRubber
   result: MagazineBoxLightRifleRubber
@@ -113,6 +129,7 @@
   completetime: 5
   materials:
     Steel: 350
+<<<<<<< HEAD
     Plastic: 600
 
 - type: latheRecipe
@@ -458,3 +475,6 @@
     Plastic: 3000
 =======
 >>>>>>> fb1754b8e9 (фиксы линтера)
+=======
+    Plastic: 600
+>>>>>>> fa59b6542d (Возврат нелетального оружия (#162))

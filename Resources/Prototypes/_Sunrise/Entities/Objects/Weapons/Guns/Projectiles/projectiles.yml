@@ -42,7 +42,11 @@
   id: BaseBulletRubber
   name: base bullet rubber
   parent: BaseBullet
+<<<<<<< HEAD
   categories: [ HideSpawnMenu ]
+=======
+  noSpawn: true
+>>>>>>> fa59b6542d (Возврат нелетального оружия (#162))
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
@@ -56,6 +60,7 @@
       path: /Audio/Weapons/Guns/Hits/snap.ogg
   - type: StaminaDamageOnCollide
     damage: 12 # 9 hits to stun sounds reasonable
+<<<<<<< HEAD
 
 - type: entity
   parent: BaseBullet
@@ -192,3 +197,5 @@
     energy: 0.5
 =======
 >>>>>>> 5d5bd2cd4b (Обновление ролей (#552))
+=======
+>>>>>>> fa59b6542d (Возврат нелетального оружия (#162))

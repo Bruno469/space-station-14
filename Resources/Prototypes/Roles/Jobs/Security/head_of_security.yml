@@ -46,7 +46,11 @@
     id: HoSPDA
     gloves: ClothingHandsGlovesCombat
     ears: ClothingHeadsetAltSecurity
+<<<<<<< HEAD
     pocket1: WeaponPistolMk58
+=======
+    pocket1: WeaponPistolMk58Nonlethal # Sunrise-Edit
+>>>>>>> fa59b6542d (Возврат нелетального оружия (#162))
   storage:
     back:
     - Flash

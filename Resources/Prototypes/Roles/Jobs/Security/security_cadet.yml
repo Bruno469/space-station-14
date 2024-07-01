@@ -33,8 +33,13 @@
     id: SecurityCadetPDA
     ears: ClothingHeadsetSecurity
     belt: ClothingBeltSecurityFilled
+<<<<<<< HEAD
     pocket1: WeaponDisabler
     pocket2: BookSecurity
+=======
+    pocket1: HyperLinkBookCorporateLaw # Sunrise-edit
+    pocket2: WeaponPistolMk58Nonlethal # Sunrise-Edit
+>>>>>>> fa59b6542d (Возврат нелетального оружия (#162))
   storage:
     back:
     - Flash
