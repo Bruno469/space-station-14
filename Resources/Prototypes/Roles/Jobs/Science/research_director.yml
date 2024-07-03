@@ -41,8 +41,11 @@
     back:
     - Flash
     - Telebaton
+<<<<<<< HEAD
 =======
     pocket1: HandheldRoboAnalyzer
     pocket2: Nanopaste10
     ears: ClothingHeadsetRD
 >>>>>>> 5775d4cdef (Merge sunrise build (#2))
+=======
+>>>>>>> 5d29ccbca0 (Телескопическая дубинка и фиксы RSI (#170))
