@@ -17,6 +17,12 @@
   - Captain
   - HeadOfPersonnel
   - Cryogenics
+<<<<<<< HEAD
+=======
+  - BlueShield
+  - Magistrat
+  - Ntrep
+>>>>>>> 38da52effa (Обновление ПНТ (#232))
 
 - type: accessLevel
   id: EmergencyShuttleRepealAll

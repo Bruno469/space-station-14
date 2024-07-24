@@ -12,6 +12,15 @@
     },
     {
       "name": "stamp-iaa"
+<<<<<<< HEAD
+=======
+    },
+    {
+      "name": "stamp-magistrat"
+    },
+    {
+      "name": "stamp-ntrep"
+>>>>>>> 38da52effa (Обновление ПНТ (#232))
     }
   ]
 }
