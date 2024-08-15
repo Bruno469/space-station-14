@@ -1011,11 +1011,15 @@
         volume: 5
   - type: Sprite
 <<<<<<< HEAD
+<<<<<<< HEAD
     sprite: Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
     layers:
     - state: heavylaser
 =======
     sprite: _Sunrise/SyndieGuns/red_projectile.rsi
+=======
+    sprite: _Sunrise/Objects/Weapons/Guns/Projectiles/red_projectile.rsi
+>>>>>>> 5c5d97f282 (Мусор в текстурках (#287))
     layers:
     - state: omnilaser
 >>>>>>> 49ebe77e49 (Новое оружие ядерных оперативников (#55))
@@ -1131,7 +1135,7 @@
       params:
         volume: 5
   - type: Sprite
-    sprite: _Sunrise/SyndieGuns/red_projectile.rsi
+    sprite: _Sunrise/Objects/Weapons/Guns/Projectiles/red_projectile.rsi
     layers:
 >>>>>>> 49ebe77e49 (Новое оружие ядерных оперативников (#55))
     - state: omnilaser
@@ -1175,7 +1179,7 @@
       params:
         volume: 5
   - type: Sprite
-    sprite: _Sunrise/SyndieGuns/big_red_projectile.rsi
+    sprite: _Sunrise/Objects/Weapons/Guns/Projectiles/big_red_projectile.rsi
     layers:
     - state: omnilaser
       shader: unshaded

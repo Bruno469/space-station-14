@@ -19,6 +19,10 @@
             #service
             Captain: [ 1, 1 ]
             HeadOfPersonnel: [ 1, 1 ]
+<<<<<<< HEAD:Resources/Prototypes/_Sunrise/Maps/oasis.yml
+=======
+            #NanoTrasenRepresentative: [ 1, 1 ]
+>>>>>>> 5c5d97f282 (Мусор в текстурках (#287)):Resources/Prototypes/_Sunrise/Maps/fland.yml
             Bartender: [ 2, 2 ]
             Botanist: [ 2, 3 ]
             Chef: [ 2, 2 ]

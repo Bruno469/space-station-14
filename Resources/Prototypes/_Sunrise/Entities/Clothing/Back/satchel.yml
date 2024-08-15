@@ -4,12 +4,21 @@
   name: army satchel
   description: A tactical satchel for army related needs.
   components:
+<<<<<<< HEAD
   - type: Sprite
     sprite: _Sunrise/Back/Satchels/military.rsi
   - type: Storage
     grid:
     - 0,0,6,3 # TODO: Change this
     maxItemSize: Huge
+=======
+    - type: Sprite
+      sprite: _Sunrise/Clothing/Back/Satchels/military.rsi
+    - type: Storage
+      grid:
+        - 0,0,6,3 # TODO: Change this
+      maxItemSize: Huge
+>>>>>>> 5c5d97f282 (Мусор в текстурках (#287))
 
 - type: entity
   parent: ClothingBackpackSatchel
@@ -17,5 +26,37 @@
   name: chief engineer satchel
   description: A white satchel for best engineers.
   components:
+<<<<<<< HEAD
   - type: Sprite
     sprite: _Sunrise/Back/Satchels/ce.rsi
+=======
+    - type: Sprite
+      sprite: _Sunrise/Clothing/Back/Satchels/ce.rsi
+
+- type: entity
+  parent: ClothingBackpackSatchel
+  id: ClothingBackpackSatchelBlueShield
+  name: сумка офицера «синий щит»
+  description: На стиле.
+  components:
+  - type: Sprite
+    sprite: _Sunrise/Clothing/Back/Satchels/blueshield.rsi
+
+- type: entity
+  parent: ClothingBackpackSatchel
+  id: ClothingBackpackSatchelPrisonGuard
+  name: сумка сотрудника кт
+  description: На стиле.
+  components:
+    - type: Sprite
+      sprite: _Sunrise/Clothing/Back/Satchels/guard.rsi
+
+- type: entity
+  parent: ClothingBackpackSatchel
+  id: ClothingBackpackSatchelHoS
+  name: сумка главы службы безопасности
+  description: Стильная чёрная кожаная сумка.
+  components:
+  - type: Sprite
+    sprite: _Sunrise/Clothing/Back/Satchels/hos.rsi
+>>>>>>> 5c5d97f282 (Мусор в текстурках (#287))

@@ -79,6 +79,7 @@
   suffix: SUNRISE
   components:
   - type: Sprite
+<<<<<<< HEAD
     sprite: _Sunrise/Clothing/OuterClothing/Hardsuits/secoff.rsi
   - type: Clothing
     sprite: _Sunrise/Clothing/OuterClothing/Hardsuits/secoff.rsi
@@ -95,6 +96,11 @@
     sprite: _Sunrise/Clothing/OuterClothing/Hardsuits/pilothardsuit.rsi
   - type: Clothing
     sprite: _Sunrise/Clothing/OuterClothing/Hardsuits/pilothardsuit.rsi
+=======
+    sprite: _Sunrise/Clothing/Hardsuits/pilothardsuit.rsi
+  - type: Clothing
+    sprite: _Sunrise/Clothing/Hardsuits/pilothardsuit.rsi
+>>>>>>> 5c5d97f282 (Мусор в текстурках (#287))
   - type: PressureProtection
     highPressureMultiplier: 0.5
     lowPressureMultiplier: 1000

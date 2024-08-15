@@ -74,8 +74,13 @@
 # For the SIAR52
 - type: listing
   id: UplinkMagazinePistolSubMachineGunSIAR52
+<<<<<<< HEAD
   name: uplink-magazine-siar52-name
   description: uplink-magazine-siar52-desc
+=======
+  name: Магазин ПП (.25 безгильзовый)
+  description: Магазин ПП на 30 патронов. Совместим с SIAR-52.
+>>>>>>> 5c5d97f282 (Мусор в текстурках (#287))
   icon: { sprite: _Sunrise/Objects/Weapons/Guns/Ammunition/Magazines/IAR-52mag.rsi, state: base }
   productEntity: MagazinePistolSubMachineGunSIAR52
   cost:
@@ -174,7 +179,11 @@
 <<<<<<< HEAD
   name: uplink-clothing-backpack-syndie-aj100-name
   productEntity: ClothingBackpackSyndieAJ100Filled
+<<<<<<< HEAD
   description: uplink-clothing-backpack-syndie-aj100-desc
+=======
+  description: Включает в себя пистолет-пулемёт AJ-100 и два магазина патрон.
+>>>>>>> 5c5d97f282 (Мусор в текстурках (#287))
   icon: { sprite: _Sunrise/Objects/Weapons/Guns/SMGs/AJ-100.rsi, state: icon }
   cost:
     Telecrystal: 20
@@ -282,7 +291,7 @@
   id: UplinkWeaponSyndieLaserPistol
   name: SAM-300
   productEntity: WeaponSyndieLaserPistolBiocode
-  icon: { sprite: _Sunrise/SyndieGuns/syndielaserpistol.rsi, state: icon }
+  icon: { sprite: _Sunrise/Objects/Weapons/Guns/Battery/syndielaserpistol.rsi, state: icon }
   cost:
     Telecrystal: 20
   categories:
@@ -298,7 +307,7 @@
   name: Набор DL6902
   productEntity: ClothingBackpackSyndieDL6902Filled
   description: Включает в себя пулемёт DL6902 и один магазин патрон.
-  icon: { sprite: _Sunrise/SyndieGuns/DL6902.rsi, state: icon }
+  icon: { sprite: _Sunrise/Objects/Weapons/Guns/LMGs/DL6902.rsi, state: icon }
   cost:
     Telecrystal: 50
   categories:
@@ -314,7 +323,7 @@
   name: Набор SIAR-52
   productEntity: ClothingBackpackSyndieSIAR52Filled
   description: Включает в себя пулемёт SIAR-52 и два магазина патрон.
-  icon: { sprite: _Sunrise/SyndieGuns/IAR-52.rsi, state: icon }
+  icon: { sprite: _Sunrise/Objects/Weapons/Guns/SMGs/IAR-52.rsi, state: icon }
   cost:
     Telecrystal: 25
   categories:
@@ -329,7 +338,7 @@
   id: UplinkWeaponLaserMinigun
   name: UVL-21 «Виверна»
   productEntity: WeaponLaserMinigunBiocode
-  icon: { sprite: _Sunrise/SyndieGuns/laserminigun.rsi, state: icon }
+  icon: { sprite: _Sunrise/Objects/Weapons/Guns/Battery/laserminigun.rsi, state: icon }
   cost:
     Telecrystal: 50
   categories:
@@ -344,7 +353,7 @@
   id: UplinkWeaponSyndieLaserGun
   name: S-13 «Чёрная мамба»
   productEntity: WeaponSyndieLaserGunBiocode
-  icon: { sprite: _Sunrise/SyndieGuns/syndielasergun.rsi, state: icon }
+  icon: { sprite: _Sunrise/Objects/Weapons/Guns/Battery/syndielasergun.rsi, state: icon }
   cost:
     Telecrystal: 40
 >>>>>>> 49ebe77e49 (Новое оружие ядерных оперативников (#55))

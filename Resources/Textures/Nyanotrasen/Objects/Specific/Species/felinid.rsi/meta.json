@@ -1,7 +1,12 @@
 {
   "version": 1,
+<<<<<<< HEAD:Resources/Textures/Nyanotrasen/Objects/Specific/Species/felinid.rsi/meta.json
   "license": "CC-BY-SA-3.0",
   "copyright": "Made by QuizzyQuin",
+=======
+  "license": "CLA",
+  "copyright": "SUNRISE",
+>>>>>>> 5c5d97f282 (Мусор в текстурках (#287)):Resources/Textures/_Sunrise/Actions/gun_actions.rsi/meta.json
   "size": {
     "x": 32,
     "y": 32
