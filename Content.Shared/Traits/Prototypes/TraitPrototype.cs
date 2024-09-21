@@ -63,4 +63,10 @@ public sealed partial class TraitPrototype : IPrototype
     /// </summary>
     [DataField]
     public List<ProtoId<MoodEffectPrototype>>? MoodEffects { get; private set; } = default!;
+
+    /// <summary>
+    ///     Gear that is given to the player, when they pick this trait.
+    /// </summary>
+    [DataField]
+    public ProtoId<EntityPrototype> TraitGear = default!;
 }
