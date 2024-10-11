@@ -237,7 +237,15 @@
   id: BaseMobSpeciesOrganic
   abstract: true
   components:
+<<<<<<< HEAD
   - type: Absorbable # Goobstation - changelings
+=======
+  # Sunrise-Start
+  - type: Carriable
+  - type: CanEscapeInventory
+  - type: LayingDown
+  # Sunrise-End
+>>>>>>> 40568a243c (lay down + scope (#476))
   - type: Barotrauma
     damage:
       types:

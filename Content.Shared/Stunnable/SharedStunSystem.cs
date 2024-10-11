@@ -16,6 +16,7 @@ using Content.Shared.StatusEffect;
 using Content.Shared.Throwing;
 using Content.Shared.Whitelist;
 using Robust.Shared.Audio.Systems;
+using Robust.Shared.Containers;
 using Robust.Shared.Physics.Components;
 using Robust.Shared.Physics.Events;
 using Robust.Shared.Physics.Systems;
@@ -36,10 +37,15 @@ public abstract class SharedStunSystem : EntitySystem
     [Dependency] private readonly EntityWhitelistSystem _entityWhitelist = default!;
     [Dependency] private readonly StandingStateSystem _standingState = default!;
     [Dependency] private readonly StatusEffectsSystem _statusEffect = default!;
+<<<<<<< HEAD
     [Dependency] private readonly SharedLayingDownSystem _layingDown = default!; // WD EDIT
     [Dependency] private readonly SharedContainerSystem _container = default!; // WD EDIT
     [Dependency] private readonly SharedStutteringSystem _stutter = default!; // goob edit
     [Dependency] private readonly SharedJitteringSystem _jitter = default!; // goob edit
+=======
+    [Dependency] private readonly SharedLayingDownSystem _layingDown = default!;
+    [Dependency] private readonly SharedContainerSystem _container = default!;
+>>>>>>> 40568a243c (lay down + scope (#476))
 
     /// <summary>
     /// Friction modifier for knocked down players.
@@ -144,13 +150,21 @@ public abstract class SharedStunSystem : EntitySystem
 
     private void OnKnockInit(EntityUid uid, KnockedDownComponent component, ComponentInit args)
     {
+<<<<<<< HEAD
         RaiseNetworkEvent(new CheckAutoGetUpEvent(GetNetEntity(uid))); // WD EDIT
         _layingDown.TryLieDown(uid, null, null, DropHeldItemsBehavior.DropIfStanding); // WD EDIT
+=======
+        RaiseNetworkEvent(new CheckAutoGetUpEvent(GetNetEntity(uid)));
+        _layingDown.TryLieDown(uid, null, null, DropHeldItemsBehavior.DropIfStanding);
+>>>>>>> 40568a243c (lay down + scope (#476))
     }
 
     private void OnKnockShutdown(EntityUid uid, KnockedDownComponent component, ComponentShutdown args)
     {
+<<<<<<< HEAD
         // WD EDIT START
+=======
+>>>>>>> 40568a243c (lay down + scope (#476))
         if (!TryComp(uid, out StandingStateComponent? standing))
             return;
 
@@ -162,7 +176,10 @@ public abstract class SharedStunSystem : EntitySystem
         }
 
         _standingState.Stand(uid, standing);
+<<<<<<< HEAD
         // WD EDIT END
+=======
+>>>>>>> 40568a243c (lay down + scope (#476))
     }
 
     private void OnStandAttempt(EntityUid uid, KnockedDownComponent component, StandAttemptEvent args)

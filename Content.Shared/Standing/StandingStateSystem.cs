@@ -1,8 +1,11 @@
+<<<<<<< HEAD
 // HEAVILY EDITED
 // if wizden ever does something to this system we're FUCKED
 // regards.
 
 using Content.Shared._White;
+=======
+>>>>>>> 40568a243c (lay down + scope (#476))
 using Content.Shared.Buckle;
 using Content.Shared.Buckle.Components;
 using Content.Shared.Hands.Components;
@@ -26,8 +29,16 @@ public sealed class StandingStateSystem : EntitySystem
     private const int StandingCollisionLayer = (int) CollisionGroup.MidImpassable;
     public bool IsDown(EntityUid uid, StandingStateComponent? standingState = null)
     {
+<<<<<<< HEAD
         if (!Resolve(uid, ref standingState, false))
             return false;
+=======
+        [Dependency] private readonly SharedAppearanceSystem _appearance = default!;
+        [Dependency] private readonly SharedAudioSystem _audio = default!;
+        [Dependency] private readonly SharedPhysicsSystem _physics = default!;
+        [Dependency] private readonly MovementSpeedModifierSystem _movement = default!;
+        [Dependency] private readonly SharedBuckleSystem _buckle = default!;
+>>>>>>> 40568a243c (lay down + scope (#476))
 
         return standingState.CurrentState is StandingState.Lying or StandingState.GettingUp;
     }
@@ -44,10 +55,78 @@ public sealed class StandingStateSystem : EntitySystem
         if (!Resolve(uid, ref standingState, false))
             return false;
 
+<<<<<<< HEAD
         // Optional component.
         Resolve(uid, ref appearance, ref hands, false);
 
         if (standingState.CurrentState is StandingState.Lying or StandingState.GettingUp)
+=======
+            return standingState.CurrentState is StandingState.Lying or StandingState.GettingUp;
+        }
+
+        public bool Down(EntityUid uid,
+            bool playSound = true,
+            bool dropHeldItems = true,
+            StandingStateComponent? standingState = null,
+            AppearanceComponent? appearance = null,
+            HandsComponent? hands = null)
+        {
+            // TODO: This should actually log missing comps...
+            if (!Resolve(uid, ref standingState, false))
+                return false;
+
+            // Optional component.
+            Resolve(uid, ref appearance, ref hands, false);
+
+            if (standingState.CurrentState is StandingState.Lying or StandingState.GettingUp)
+                return true;
+
+            // This is just to avoid most callers doing this manually saving boilerplate
+            // 99% of the time you'll want to drop items but in some scenarios (e.g. buckling) you don't want to.
+            // We do this BEFORE downing because something like buckle may be blocking downing but we want to drop hand items anyway
+            // and ultimately this is just to avoid boilerplate in Down callers + keep their behavior consistent.
+            if (dropHeldItems && hands != null)
+                RaiseLocalEvent(uid, new DropHandItemsEvent(), false);
+
+            if (TryComp(uid, out BuckleComponent? buckle) && buckle.Buckled && !_buckle.TryUnbuckle(uid, uid, buckleComp: buckle))
+                return false;
+
+            var msg = new DownAttemptEvent();
+            RaiseLocalEvent(uid, msg, false);
+
+            if (msg.Cancelled)
+                return false;
+
+            standingState.CurrentState = StandingState.Lying;
+            Dirty(uid, standingState);
+            RaiseLocalEvent(uid, new DownedEvent(), false);
+
+            // Seemed like the best place to put it
+            _appearance.SetData(uid, RotationVisuals.RotationState, RotationState.Horizontal, appearance);
+
+            // Change collision masks to allow going under certain entities like flaps and tables
+            if (TryComp(uid, out FixturesComponent? fixtureComponent))
+            {
+                foreach (var (key, fixture) in fixtureComponent.Fixtures)
+                {
+                    if ((fixture.CollisionMask & StandingCollisionLayer) == 0)
+                        continue;
+
+                    standingState.ChangedFixtures.Add(key);
+                    _physics.SetCollisionMask(uid, key, fixture, fixture.CollisionMask & ~StandingCollisionLayer, manager: fixtureComponent);
+                }
+            }
+
+            // check if component was just added or streamed to client
+            // if true, no need to play sound - mob was down before player could seen that
+            if (standingState.LifeStage <= ComponentLifeStage.Starting)
+                return true;
+
+            if (playSound)
+                _audio.PlayPredicted(standingState.DownSound, uid, null);
+
+            _movement.RefreshMovementSpeedModifiers(uid);
+>>>>>>> 40568a243c (lay down + scope (#476))
             return true;
 
         // This is just to avoid most callers doing this manually saving boilerplate
@@ -56,7 +135,49 @@ public sealed class StandingStateSystem : EntitySystem
         // and ultimately this is just to avoid boilerplate in Down callers + keep their behavior consistent.
         if (dropHeldItems && hands != null)
         {
+<<<<<<< HEAD
             RaiseLocalEvent(uid, new DropHandItemsEvent(), false);
+=======
+            // TODO: This should actually log missing comps...
+            if (!Resolve(uid, ref standingState, false))
+                return false;
+
+            // Optional component.
+            Resolve(uid, ref appearance, false);
+
+            if (standingState.CurrentState is StandingState.Standing
+                || TryComp(uid, out BuckleComponent? buckle)
+                && buckle.Buckled && !_buckle.TryUnbuckle(uid, uid, buckleComp: buckle))
+                return true;
+
+            if (!force)
+            {
+                var msg = new StandAttemptEvent();
+                RaiseLocalEvent(uid, msg, false);
+
+                if (msg.Cancelled)
+                    return false;
+            }
+
+            standingState.CurrentState = StandingState.Standing;
+            Dirty(uid, standingState);
+            RaiseLocalEvent(uid, new StoodEvent(), false);
+
+            _appearance.SetData(uid, RotationVisuals.RotationState, RotationState.Vertical, appearance);
+
+            if (TryComp(uid, out FixturesComponent? fixtureComponent))
+            {
+                foreach (var key in standingState.ChangedFixtures)
+                {
+                    if (fixtureComponent.Fixtures.TryGetValue(key, out var fixture))
+                        _physics.SetCollisionMask(uid, key, fixture, fixture.CollisionMask | StandingCollisionLayer, fixtureComponent);
+                }
+            }
+            standingState.ChangedFixtures.Clear();
+            _movement.RefreshMovementSpeedModifiers(uid);
+
+            return true;
+>>>>>>> 40568a243c (lay down + scope (#476))
         }
 
         if (!force)

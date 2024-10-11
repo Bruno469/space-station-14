@@ -35,6 +35,10 @@
     containers:
       ballistic-ammo: !type:Container
         ents: []
+<<<<<<< HEAD
+=======
+  - type: Telescope
+>>>>>>> 40568a243c (lay down + scope (#476))
   - type: StaticPrice
     price: 500
 

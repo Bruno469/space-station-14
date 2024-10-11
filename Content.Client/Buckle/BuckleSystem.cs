@@ -58,9 +58,12 @@ internal sealed class BuckleSystem : SharedBuckleSystem
 
     private void OnAppearanceChange(EntityUid uid, BuckleComponent component, ref AppearanceChangeEvent args)
     {
-        if (!TryComp<RotationVisualsComponent>(uid, out var rotVisuals))
+        if (!TryComp<RotationVisualsComponent>(uid, out var rotVisuals)
+            || !Appearance.TryGetData<bool>(uid, BuckleVisuals.Buckled, out var buckled, args.Component)
+            || !buckled || args.Sprite == null)
             return;
 
+<<<<<<< HEAD
         if (!Appearance.TryGetData<bool>(uid, BuckleVisuals.Buckled, out var buckled, args.Component) ||
             !buckled ||
             args.Sprite == null)
@@ -69,6 +72,8 @@ internal sealed class BuckleSystem : SharedBuckleSystem
             return;
         }
 
+=======
+>>>>>>> 40568a243c (lay down + scope (#476))
         // Animate strapping yourself to something at a given angle
         // TODO: Dump this when buckle is better
         _rotationVisualizerSystem.AnimateSpriteRotation(uid, args.Sprite, rotVisuals.HorizontalRotation, 0.125f);

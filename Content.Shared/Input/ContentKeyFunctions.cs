@@ -61,6 +61,7 @@ namespace Content.Shared.Input
         public static readonly BoundKeyFunction ResetZoom = "ResetZoom";
         public static readonly BoundKeyFunction ToggleStanding = "ToggleStanding"; // WD EDIT
 
+<<<<<<< HEAD
         // Shitmed Change Start
         public static readonly BoundKeyFunction TargetHead = "TargetHead";
         public static readonly BoundKeyFunction TargetTorso = "TargetTorso";
@@ -70,6 +71,13 @@ namespace Content.Shared.Input
         public static readonly BoundKeyFunction TargetRightLeg = "TargetRightLeg";
 
         // Shitmed Change End
+=======
+        // Sunrise
+        public static readonly BoundKeyFunction ToggleStanding = "ToggleStanding";
+        public static readonly BoundKeyFunction LookUp = "LookUp";
+        // Sunrise
+
+>>>>>>> 40568a243c (lay down + scope (#476))
         public static readonly BoundKeyFunction ArcadeUp = "ArcadeUp";
         public static readonly BoundKeyFunction ArcadeDown = "ArcadeDown";
         public static readonly BoundKeyFunction ArcadeLeft = "ArcadeLeft";

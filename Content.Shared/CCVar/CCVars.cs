@@ -2399,11 +2399,27 @@ namespace Content.Shared.CCVar
         /// </summary>
         public static readonly CVarDef<bool> DebugPow3rDisableParallel =
             CVarDef.Create("debug.pow3r_disable_parallel", true, CVar.SERVERONLY);
+<<<<<<< HEAD
         
         #region Surgery
 
         public static readonly CVarDef<bool> CanOperateOnSelf =
             CVarDef.Create("surgery.can_operate_on_self", false, CVar.SERVERONLY);
+=======
+
+
+        #region Lying Down System
+
+        public static readonly CVarDef<bool> AutoGetUp =
+            CVarDef.Create("rest.auto_get_up", true, CVar.CLIENT | CVar.ARCHIVE | CVar.REPLICATED);
+
+        #endregion
+
+        #region LookUp
+
+        public static readonly CVarDef<bool> HoldLookUp =
+            CVarDef.Create("rest.hold_look_up", true, CVar.CLIENT | CVar.ARCHIVE);
+>>>>>>> 40568a243c (lay down + scope (#476))
 
         #endregion
     }
