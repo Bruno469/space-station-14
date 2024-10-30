@@ -6,6 +6,7 @@ ent-BaseBulletRubber = резиновая пуля
     .desc = { ent-BaseBullet.desc }
 ent-RadiationBullet = поток радиоактивных частиц
     .desc = { ent-BaseBullet.desc }
+<<<<<<< HEAD
 ent-BulletShellFragArtillery = осколочный артиллерийский снаряд
     .desc = { ent-BaseBullet.desc }
 ent-BulletShellBatonArtillery = шоковый артиллерийский снаряд
@@ -16,3 +17,5 @@ ent-BulletShellFlashArtillery = ослепляющий артиллерийск�
     .desc = { ent-BaseBullet.desc }
 ent-BulletShellEMPArtillery = ЭМИ артиллерийский снаряд
     .desc = { ent-BaseBullet.desc }
+=======
+>>>>>>> 5d5bd2cd4b (Обновление ролей (#552))

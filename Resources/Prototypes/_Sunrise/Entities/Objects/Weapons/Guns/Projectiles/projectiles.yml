@@ -94,6 +94,7 @@
   - type: Reflective
     reflective:
     - Energy
+<<<<<<< HEAD
 
 # Shells that used for friendship and duster
 
@@ -189,3 +190,5 @@
     radius: 3.5
     color: blue
     energy: 0.5
+=======
+>>>>>>> 5d5bd2cd4b (Обновление ролей (#552))
