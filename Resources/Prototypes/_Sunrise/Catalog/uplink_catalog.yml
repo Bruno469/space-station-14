@@ -517,7 +517,11 @@
     Telecrystal: 11
   categories:
   - UplinkWeaponry
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> fce6f7dc98 (Рапира синдиката (#565))
 - type: listing
   id: UplinkHypo
   name: uplink-hypo-name

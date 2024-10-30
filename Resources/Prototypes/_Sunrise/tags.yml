@@ -148,10 +148,17 @@
 
 - type: Tag
   id: BluespaceBox
+<<<<<<< HEAD
 
 - type: Tag
   id: SyndicateRapier
 
+=======
+  
+- type: Tag
+  id: SyndicateRapier
+  
+>>>>>>> fce6f7dc98 (Рапира синдиката (#565))
 # Material bag:
 
 - type: Tag
