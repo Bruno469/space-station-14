@@ -404,9 +404,9 @@
   productEntity: BeltSheathSyndieFilledBox
   discountCategory: rareDiscounts
   discountDownTo:
-    Telecrystal: 3
+    Telecrystal: 5
   cost:
-    Telecrystal: 10
+    Telecrystal: 11
   categories:
   - UplinkWeaponry
 
