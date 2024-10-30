@@ -828,6 +828,39 @@
       - WeaponLaserCannon
       - WeaponLaserCarbine
       - WeaponXrayCannon
+<<<<<<< HEAD
+=======
+    # Sunrise-Start
+      - WeaponMechCombatImmolationGun # Sunrise - Mechs
+      - WeaponMechCombatSolarisLaser # Sunrise - Mechs
+      - WeaponMechCombatFiredartLaser # Sunrise - Mechs
+      - WeaponMechCombatUltraRifle # Sunrise - Mechs
+      - WeaponMechCombatShotgun # Sunrise - Mechs
+      - WeaponMechCombatShotgunIncendiary # Sunrise - Mechs
+      - WeaponMechCombatDisabler # Sunrise - Mechs
+      - WeaponMechCombatFlashbangLauncher # Sunrise - Mechs
+      - WeaponMechCombatMissileRack8 # Sunrise - Mechs
+      - WeaponEnergyGun       # Sunrise - Energy Gun
+      - WeaponEnergyGunMini   # Sunrise - Miniature Energy Gun
+      - WeaponEnergyGunPistol # Sunrise - PDW-9 Energy Pistol
+      - WeaponGunLaserCarbineAutomatic # Sunrise - IK-60 Laser Carbine
+      - ClothingShoesBootsMagCombat # Sunrise - Combat Magboots
+      - BaseMagazinePistolCaselessRifleExtended
+      - MagazinePPSH41Extended
+      - MagazineMP5Extended
+      - MagazineMP7Extended
+      - MagazineP90Extended
+      - MagazineM16A4Extended
+      - MagazineAR18Extended
+      - MagazineM28Extended
+      - MagazineG36Extended
+      - MagazineFamasExtended
+      - MagazineV31Extended
+      - MagazineBauer127Extended
+      - MagazineBR64Extended
+      - MagazineDragunovExtended
+    # Sunrise-End
+>>>>>>> c9fa80e00e (фиксы мержа ПРов)
   - type: MaterialStorage
     whitelist:
       tags:
