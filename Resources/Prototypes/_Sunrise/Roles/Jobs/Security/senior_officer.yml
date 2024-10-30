@@ -43,6 +43,9 @@
   storage:
     back:
     - WeaponDisablerSMG
+<<<<<<< HEAD
 =======
     pocket1: WeaponPistolMk58Nonlethal
 >>>>>>> fa59b6542d (Возврат нелетального оружия (#162))
+=======
+>>>>>>> 5d5bd2cd4b (Обновление ролей (#552))

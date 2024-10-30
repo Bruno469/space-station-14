@@ -334,6 +334,7 @@
   loadouts:
   - AdjutantCoat
 
+<<<<<<< HEAD
 =======
   - HeadHatCentcomcap
 >>>>>>> 07ef797344 (Кучка мелких изменений (#128))
@@ -353,3 +354,5 @@
   - PsychologistDuffel
 
 >>>>>>> 5775d4cdef (Merge sunrise build (#2))
+=======
+>>>>>>> 5d5bd2cd4b (Обновление ролей (#552))
